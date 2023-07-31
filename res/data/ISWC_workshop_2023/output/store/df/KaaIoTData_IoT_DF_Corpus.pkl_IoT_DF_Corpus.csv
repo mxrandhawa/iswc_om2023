@@ -1,0 +1,9 @@
+,0,1,2,3,4,5,6,7
+0,name,description,sensor,measures,water,temperature,fahrenheit,serial
+1,model,bfg,,,,,,
+2,mac,,,,,,,
+3,latitude,,,,,,,
+4,longitude,,,,,,,
+5,auto,temperature,,,,,,
+6,timestamp,values,value,,,,,
+39,,,,,,,,

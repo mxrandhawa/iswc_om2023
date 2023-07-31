@@ -1,0 +1,3284 @@
+@prefix dso: <http://www.iot4win.org.uk/diim/ontologies/dso#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dso:SSM_GOIoTP_sensor_KaaIoTData_sensor a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:sensor ;
+    dso:similarity_value "1.0"^^xsd:float .
+
+dso:SSM_SNN_sensor_KaaIoTData_sensor a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:sensor ;
+    dso:similarity_value "1.0"^^xsd:float .
+
+dso:SSM_WatERPOntology_model_KaaIoTData_model a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:model ;
+    dso:similarity_value "1.0"^^xsd:float .
+
+dso:SSM_GOIoTP_activity_KaaIoTData_temperature a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:activity,
+        dso:temperature ;
+    dso:similarity_value "0.21052631578947367"^^xsd:float .
+
+dso:SSM_GOIoTP_actuation_KaaIoTData_description a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:actuation,
+        dso:description ;
+    dso:similarity_value "0.5"^^xsd:float .
+
+dso:SSM_GOIoTP_actuation_KaaIoTData_temperature a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:actuation,
+        dso:temperature ;
+    dso:similarity_value "0.3"^^xsd:float .
+
+dso:SSM_GOIoTP_classes_KaaIoTData_values a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:classes,
+        dso:values ;
+    dso:similarity_value "0.46153846153846156"^^xsd:float .
+
+dso:SSM_GOIoTP_comment_KaaIoTData_description a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:comment,
+        dso:description ;
+    dso:similarity_value "0.2222222222222222"^^xsd:float .
+
+dso:SSM_GOIoTP_comment_KaaIoTData_name a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:comment,
+        dso:name ;
+    dso:similarity_value "0.36363636363636365"^^xsd:float .
+
+dso:SSM_GOIoTP_comment_KaaIoTData_sensor a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:comment,
+        dso:sensor ;
+    dso:similarity_value "0.3076923076923077"^^xsd:float .
+
+dso:SSM_GOIoTP_comment_KaaIoTData_temperature a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:comment,
+        dso:temperature ;
+    dso:similarity_value "0.1111111111111111"^^xsd:float .
+
+dso:SSM_GOIoTP_contact_KaaIoTData_values a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:contact,
+        dso:values ;
+    dso:similarity_value "0.15384615384615385"^^xsd:float .
+
+dso:SSM_GOIoTP_core_KaaIoTData_description a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:core,
+        dso:description ;
+    dso:similarity_value "0.13333333333333333"^^xsd:float .
+
+dso:SSM_GOIoTP_core_KaaIoTData_sensor a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:core,
+        dso:sensor ;
+    dso:similarity_value "0.4"^^xsd:float .
+
+dso:SSM_GOIoTP_core_KaaIoTData_temperature a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:core,
+        dso:temperature ;
+    dso:similarity_value "0.26666666666666666"^^xsd:float .
+
+dso:SSM_GOIoTP_description_KaaIoTData_name a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:description,
+        dso:name ;
+    dso:similarity_value "0.13333333333333333"^^xsd:float .
+
+dso:SSM_GOIoTP_description_KaaIoTData_sensor a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:description,
+        dso:sensor ;
+    dso:similarity_value "0.23529411764705882"^^xsd:float .
+
+dso:SSM_GOIoTP_device_KaaIoTData_description a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:description,
+        dso:device ;
+    dso:similarity_value "0.35294117647058826"^^xsd:float .
+
+dso:SSM_GOIoTP_device_KaaIoTData_name a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:device,
+        dso:name ;
+    dso:similarity_value "0.2"^^xsd:float .
+
+dso:SSM_GOIoTP_device_KaaIoTData_sensor a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:device,
+        dso:sensor ;
+    dso:similarity_value "0.16666666666666666"^^xsd:float .
+
+dso:SSM_GOIoTP_device_KaaIoTData_temperature a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:device,
+        dso:temperature ;
+    dso:similarity_value "0.23529411764705882"^^xsd:float .
+
+dso:SSM_GOIoTP_entities_KaaIoTData_description a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:description,
+        dso:entities ;
+    dso:similarity_value "0.21052631578947367"^^xsd:float .
+
+dso:SSM_GOIoTP_entities_KaaIoTData_sensor a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:entities,
+        dso:sensor ;
+    dso:similarity_value "0.42857142857142855"^^xsd:float .
+
+dso:SSM_GOIoTP_entity_KaaIoTData_description a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:description,
+        dso:entity ;
+    dso:similarity_value "0.35294117647058826"^^xsd:float .
+
+dso:SSM_GOIoTP_entity_KaaIoTData_sensor a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:entity,
+        dso:sensor ;
+    dso:similarity_value "0.3333333333333333"^^xsd:float .
+
+dso:SSM_GOIoTP_entity_KaaIoTData_temperature a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:entity,
+        dso:temperature ;
+    dso:similarity_value "0.23529411764705882"^^xsd:float .
+
+dso:SSM_GOIoTP_example_KaaIoTData_description a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:description,
+        dso:example ;
+    dso:similarity_value "0.2222222222222222"^^xsd:float .
+
+dso:SSM_GOIoTP_example_KaaIoTData_name a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:example,
+        dso:name ;
+    dso:similarity_value "0.5454545454545454"^^xsd:float .
+
+dso:SSM_GOIoTP_example_KaaIoTData_sensor a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:example,
+        dso:sensor ;
+    dso:similarity_value "0.15384615384615385"^^xsd:float .
+
+dso:SSM_GOIoTP_example_KaaIoTData_temperature a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:example,
+        dso:temperature ;
+    dso:similarity_value "0.4444444444444444"^^xsd:float .
+
+dso:SSM_GOIoTP_hasdescription_KaaIoTData_values a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:hasdescription,
+        dso:values ;
+    dso:similarity_value "0.3"^^xsd:float .
+
+dso:SSM_GOIoTP_hassemantics_KaaIoTData_values a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:hassemantics,
+        dso:values ;
+    dso:similarity_value "0.3333333333333333"^^xsd:float .
+
+dso:SSM_GOIoTP_hasserviceinterface_KaaIoTData_values a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:hasserviceinterface,
+        dso:values ;
+    dso:similarity_value "0.24"^^xsd:float .
+
+dso:SSM_GOIoTP_http_KaaIoTData_temperature a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:http,
+        dso:temperature ;
+    dso:similarity_value "0.26666666666666666"^^xsd:float .
+
+dso:SSM_GOIoTP_implements_KaaIoTData_values a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:implements,
+        dso:values ;
+    dso:similarity_value "0.375"^^xsd:float .
+
+dso:SSM_GOIoTP_making_KaaIoTData_description a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:description,
+        dso:making ;
+    dso:similarity_value "0.23529411764705882"^^xsd:float .
+
+dso:SSM_GOIoTP_making_KaaIoTData_name a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:making,
+        dso:name ;
+    dso:similarity_value "0.2"^^xsd:float .
+
+dso:SSM_GOIoTP_making_KaaIoTData_sensor a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:making,
+        dso:sensor ;
+    dso:similarity_value "0.16666666666666666"^^xsd:float .
+
+dso:SSM_GOIoTP_modified_KaaIoTData_values a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:modified,
+        dso:values ;
+    dso:similarity_value "0.14285714285714285"^^xsd:float .
+
+dso:SSM_GOIoTP_observation_KaaIoTData_temperature a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:observation,
+        dso:temperature ;
+    dso:similarity_value "0.36363636363636365"^^xsd:float .
+
+dso:SSM_GOIoTP_platformcomponent_KaaIoTData_values a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:platformcomponent,
+        dso:values ;
+    dso:similarity_value "0.17391304347826086"^^xsd:float .
+
+dso:SSM_GOIoTP_prefix_KaaIoTData_name a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:name,
+        dso:prefix ;
+    dso:similarity_value "0.2"^^xsd:float .
+
+dso:SSM_GOIoTP_prefix_KaaIoTData_sensor a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:prefix,
+        dso:sensor ;
+    dso:similarity_value "0.16666666666666666"^^xsd:float .
+
+dso:SSM_GOIoTP_project_KaaIoTData_name a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:name,
+        dso:project ;
+    dso:similarity_value "0.18181818181818182"^^xsd:float .
+
+dso:SSM_GOIoTP_sensor_KaaIoTData_name a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:name,
+        dso:sensor ;
+    dso:similarity_value "0.2"^^xsd:float .
+
+dso:SSM_GOIoTP_skos_KaaIoTData_description a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:description,
+        dso:skos ;
+    dso:similarity_value "0.26666666666666666"^^xsd:float .
+
+dso:SSM_GOIoTP_smart_KaaIoTData_description a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:description,
+        dso:smart ;
+    dso:similarity_value "0.375"^^xsd:float .
+
+dso:SSM_GOIoTP_smart_KaaIoTData_name a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:name,
+        dso:smart ;
+    dso:similarity_value "0.2222222222222222"^^xsd:float .
+
+dso:SSM_GOIoTP_smart_KaaIoTData_sensor a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:sensor,
+        dso:smart ;
+    dso:similarity_value "0.36363636363636365"^^xsd:float .
+
+dso:SSM_GOIoTP_smart_KaaIoTData_temperature a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:smart,
+        dso:temperature ;
+    dso:similarity_value "0.125"^^xsd:float .
+
+dso:SSM_GOIoTP_truck_KaaIoTData_name a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:name,
+        dso:truck ;
+    dso:similarity_value "0.0"^^xsd:float .
+
+dso:SSM_GOIoTP_versioninfo_KaaIoTData_values a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:values,
+        dso:versioninfo ;
+    dso:similarity_value "0.35294117647058826"^^xsd:float .
+
+dso:SSM_GOIoTP_vocabulary_KaaIoTData_values a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:values,
+        dso:vocabulary ;
+    dso:similarity_value "0.375"^^xsd:float .
+
+dso:SSM_SNN_activity_KaaIoTData_temperature a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:activity,
+        dso:temperature ;
+    dso:similarity_value "0.21052631578947367"^^xsd:float .
+
+dso:SSM_SNN_actuation_KaaIoTData_description a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:actuation,
+        dso:description ;
+    dso:similarity_value "0.5"^^xsd:float .
+
+dso:SSM_SNN_actuation_KaaIoTData_temperature a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:actuation,
+        dso:temperature ;
+    dso:similarity_value "0.3"^^xsd:float .
+
+dso:SSM_SNN_classes_KaaIoTData_values a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:classes,
+        dso:values ;
+    dso:similarity_value "0.46153846153846156"^^xsd:float .
+
+dso:SSM_SNN_comment_KaaIoTData_description a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:comment,
+        dso:description ;
+    dso:similarity_value "0.2222222222222222"^^xsd:float .
+
+dso:SSM_SNN_comment_KaaIoTData_name a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:comment,
+        dso:name ;
+    dso:similarity_value "0.36363636363636365"^^xsd:float .
+
+dso:SSM_SNN_comment_KaaIoTData_sensor a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:comment,
+        dso:sensor ;
+    dso:similarity_value "0.3076923076923077"^^xsd:float .
+
+dso:SSM_SNN_comment_KaaIoTData_temperature a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:comment,
+        dso:temperature ;
+    dso:similarity_value "0.1111111111111111"^^xsd:float .
+
+dso:SSM_SNN_contact_KaaIoTData_values a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:contact,
+        dso:values ;
+    dso:similarity_value "0.15384615384615385"^^xsd:float .
+
+dso:SSM_SNN_core_KaaIoTData_description a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:core,
+        dso:description ;
+    dso:similarity_value "0.13333333333333333"^^xsd:float .
+
+dso:SSM_SNN_core_KaaIoTData_sensor a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:core,
+        dso:sensor ;
+    dso:similarity_value "0.4"^^xsd:float .
+
+dso:SSM_SNN_core_KaaIoTData_temperature a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:core,
+        dso:temperature ;
+    dso:similarity_value "0.26666666666666666"^^xsd:float .
+
+dso:SSM_SNN_description_KaaIoTData_name a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:description,
+        dso:name ;
+    dso:similarity_value "0.13333333333333333"^^xsd:float .
+
+dso:SSM_SNN_description_KaaIoTData_sensor a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:description,
+        dso:sensor ;
+    dso:similarity_value "0.23529411764705882"^^xsd:float .
+
+dso:SSM_SNN_device_KaaIoTData_description a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:description,
+        dso:device ;
+    dso:similarity_value "0.35294117647058826"^^xsd:float .
+
+dso:SSM_SNN_device_KaaIoTData_name a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:device,
+        dso:name ;
+    dso:similarity_value "0.2"^^xsd:float .
+
+dso:SSM_SNN_device_KaaIoTData_sensor a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:device,
+        dso:sensor ;
+    dso:similarity_value "0.16666666666666666"^^xsd:float .
+
+dso:SSM_SNN_device_KaaIoTData_temperature a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:device,
+        dso:temperature ;
+    dso:similarity_value "0.23529411764705882"^^xsd:float .
+
+dso:SSM_SNN_entities_KaaIoTData_description a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:description,
+        dso:entities ;
+    dso:similarity_value "0.21052631578947367"^^xsd:float .
+
+dso:SSM_SNN_entities_KaaIoTData_sensor a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:entities,
+        dso:sensor ;
+    dso:similarity_value "0.42857142857142855"^^xsd:float .
+
+dso:SSM_SNN_entity_KaaIoTData_description a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:description,
+        dso:entity ;
+    dso:similarity_value "0.35294117647058826"^^xsd:float .
+
+dso:SSM_SNN_entity_KaaIoTData_sensor a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:entity,
+        dso:sensor ;
+    dso:similarity_value "0.3333333333333333"^^xsd:float .
+
+dso:SSM_SNN_entity_KaaIoTData_temperature a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:entity,
+        dso:temperature ;
+    dso:similarity_value "0.23529411764705882"^^xsd:float .
+
+dso:SSM_SNN_example_KaaIoTData_description a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:description,
+        dso:example ;
+    dso:similarity_value "0.2222222222222222"^^xsd:float .
+
+dso:SSM_SNN_example_KaaIoTData_name a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:example,
+        dso:name ;
+    dso:similarity_value "0.5454545454545454"^^xsd:float .
+
+dso:SSM_SNN_example_KaaIoTData_sensor a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:example,
+        dso:sensor ;
+    dso:similarity_value "0.15384615384615385"^^xsd:float .
+
+dso:SSM_SNN_example_KaaIoTData_temperature a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:example,
+        dso:temperature ;
+    dso:similarity_value "0.4444444444444444"^^xsd:float .
+
+dso:SSM_SNN_hasdescription_KaaIoTData_values a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:hasdescription,
+        dso:values ;
+    dso:similarity_value "0.3"^^xsd:float .
+
+dso:SSM_SNN_hassemantics_KaaIoTData_values a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:hassemantics,
+        dso:values ;
+    dso:similarity_value "0.3333333333333333"^^xsd:float .
+
+dso:SSM_SNN_hasserviceinterface_KaaIoTData_values a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:hasserviceinterface,
+        dso:values ;
+    dso:similarity_value "0.24"^^xsd:float .
+
+dso:SSM_SNN_http_KaaIoTData_temperature a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:http,
+        dso:temperature ;
+    dso:similarity_value "0.26666666666666666"^^xsd:float .
+
+dso:SSM_SNN_implements_KaaIoTData_values a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:implements,
+        dso:values ;
+    dso:similarity_value "0.375"^^xsd:float .
+
+dso:SSM_SNN_making_KaaIoTData_description a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:description,
+        dso:making ;
+    dso:similarity_value "0.23529411764705882"^^xsd:float .
+
+dso:SSM_SNN_making_KaaIoTData_name a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:making,
+        dso:name ;
+    dso:similarity_value "0.2"^^xsd:float .
+
+dso:SSM_SNN_making_KaaIoTData_sensor a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:making,
+        dso:sensor ;
+    dso:similarity_value "0.16666666666666666"^^xsd:float .
+
+dso:SSM_SNN_modified_KaaIoTData_values a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:modified,
+        dso:values ;
+    dso:similarity_value "0.14285714285714285"^^xsd:float .
+
+dso:SSM_SNN_observation_KaaIoTData_temperature a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:observation,
+        dso:temperature ;
+    dso:similarity_value "0.36363636363636365"^^xsd:float .
+
+dso:SSM_SNN_platformcomponent_KaaIoTData_values a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:platformcomponent,
+        dso:values ;
+    dso:similarity_value "0.17391304347826086"^^xsd:float .
+
+dso:SSM_SNN_prefix_KaaIoTData_name a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:name,
+        dso:prefix ;
+    dso:similarity_value "0.2"^^xsd:float .
+
+dso:SSM_SNN_prefix_KaaIoTData_sensor a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:prefix,
+        dso:sensor ;
+    dso:similarity_value "0.16666666666666666"^^xsd:float .
+
+dso:SSM_SNN_project_KaaIoTData_name a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:name,
+        dso:project ;
+    dso:similarity_value "0.18181818181818182"^^xsd:float .
+
+dso:SSM_SNN_sensor_KaaIoTData_name a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:name,
+        dso:sensor ;
+    dso:similarity_value "0.2"^^xsd:float .
+
+dso:SSM_SNN_skos_KaaIoTData_description a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:description,
+        dso:skos ;
+    dso:similarity_value "0.26666666666666666"^^xsd:float .
+
+dso:SSM_SNN_smart_KaaIoTData_description a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:description,
+        dso:smart ;
+    dso:similarity_value "0.375"^^xsd:float .
+
+dso:SSM_SNN_smart_KaaIoTData_name a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:name,
+        dso:smart ;
+    dso:similarity_value "0.2222222222222222"^^xsd:float .
+
+dso:SSM_SNN_smart_KaaIoTData_sensor a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:sensor,
+        dso:smart ;
+    dso:similarity_value "0.36363636363636365"^^xsd:float .
+
+dso:SSM_SNN_smart_KaaIoTData_temperature a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:smart,
+        dso:temperature ;
+    dso:similarity_value "0.125"^^xsd:float .
+
+dso:SSM_SNN_truck_KaaIoTData_name a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:name,
+        dso:truck ;
+    dso:similarity_value "0.0"^^xsd:float .
+
+dso:SSM_SNN_versioninfo_KaaIoTData_values a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:values,
+        dso:versioninfo ;
+    dso:similarity_value "0.35294117647058826"^^xsd:float .
+
+dso:SSM_SNN_vocabulary_KaaIoTData_values a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:values,
+        dso:vocabulary ;
+    dso:similarity_value "0.375"^^xsd:float .
+
+dso:SSM_WatERPOntology_act_KaaIoTData_values a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:act,
+        dso:values ;
+    dso:similarity_value "0.2222222222222222"^^xsd:float .
+
+dso:SSM_WatERPOntology_amp_KaaIoTData_model a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:amp,
+        dso:model ;
+    dso:similarity_value "0.25"^^xsd:float .
+
+dso:SSM_WatERPOntology_amp_KaaIoTData_sensor a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:amp,
+        dso:sensor ;
+    dso:similarity_value "0.0"^^xsd:float .
+
+dso:SSM_WatERPOntology_amp_KaaIoTData_value a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:amp,
+        dso:value ;
+    dso:similarity_value "0.25"^^xsd:float .
+
+dso:SSM_WatERPOntology_associated_KaaIoTData_values a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:associated,
+        dso:values ;
+    dso:similarity_value "0.25"^^xsd:float .
+
+dso:SSM_WatERPOntology_capability_KaaIoTData_temperature a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:capability,
+        dso:temperature ;
+    dso:similarity_value "0.09523809523809523"^^xsd:float .
+
+dso:SSM_WatERPOntology_defined_KaaIoTData_description a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:defined,
+        dso:description ;
+    dso:similarity_value "0.4444444444444444"^^xsd:float .
+
+dso:SSM_WatERPOntology_deployed_KaaIoTData_temperature a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:deployed,
+        dso:temperature ;
+    dso:similarity_value "0.3157894736842105"^^xsd:float .
+
+dso:SSM_WatERPOntology_described_KaaIoTData_values a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:described,
+        dso:values ;
+    dso:similarity_value "0.26666666666666666"^^xsd:float .
+
+dso:SSM_WatERPOntology_dis_KaaIoTData_model a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:dis,
+        dso:model ;
+    dso:similarity_value "0.25"^^xsd:float .
+
+dso:SSM_WatERPOntology_dis_KaaIoTData_sensor a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:dis,
+        dso:sensor ;
+    dso:similarity_value "0.2222222222222222"^^xsd:float .
+
+dso:SSM_WatERPOntology_entity_KaaIoTData_values a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:entity,
+        dso:values ;
+    dso:similarity_value "0.16666666666666666"^^xsd:float .
+
+dso:SSM_WatERPOntology_etc_KaaIoTData_sensor a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:etc,
+        dso:sensor ;
+    dso:similarity_value "0.2222222222222222"^^xsd:float .
+
+dso:SSM_WatERPOntology_etc_KaaIoTData_value a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:etc,
+        dso:value ;
+    dso:similarity_value "0.25"^^xsd:float .
+
+dso:SSM_WatERPOntology_event_KaaIoTData_value a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:event,
+        dso:value ;
+    dso:similarity_value "0.4"^^xsd:float .
+
+dso:SSM_WatERPOntology_exactmatch_KaaIoTData_temperature a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:exactmatch,
+        dso:temperature ;
+    dso:similarity_value "0.38095238095238093"^^xsd:float .
+
+dso:SSM_WatERPOntology_example_KaaIoTData_values a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:example,
+        dso:values ;
+    dso:similarity_value "0.46153846153846156"^^xsd:float .
+
+dso:SSM_WatERPOntology_feature_KaaIoTData_value a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:feature,
+        dso:value ;
+    dso:similarity_value "0.5"^^xsd:float .
+
+dso:SSM_WatERPOntology_featureofinterest_KaaIoTData_model a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:featureofinterest,
+        dso:model ;
+    dso:similarity_value "0.18181818181818182"^^xsd:float .
+
+dso:SSM_WatERPOntology_featureofinterest_KaaIoTData_sensor a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:featureofinterest,
+        dso:sensor ;
+    dso:similarity_value "0.08695652173913043"^^xsd:float .
+
+dso:SSM_WatERPOntology_haspart_KaaIoTData_model a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:haspart,
+        dso:model ;
+    dso:similarity_value "0.0"^^xsd:float .
+
+dso:SSM_WatERPOntology_life_KaaIoTData_description a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:description,
+        dso:life ;
+    dso:similarity_value "0.13333333333333333"^^xsd:float .
+
+dso:SSM_WatERPOntology_made_KaaIoTData_temperature a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:made,
+        dso:temperature ;
+    dso:similarity_value "0.13333333333333333"^^xsd:float .
+
+dso:SSM_WatERPOntology_maintenance_KaaIoTData_description a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:description,
+        dso:maintenance ;
+    dso:similarity_value "0.18181818181818182"^^xsd:float .
+
+dso:SSM_WatERPOntology_measurement_KaaIoTData_temperature a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:measurement,
+        dso:temperature ;
+    dso:similarity_value "0.45454545454545453"^^xsd:float .
+
+dso:SSM_WatERPOntology_methods_KaaIoTData_description a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:description,
+        dso:methods ;
+    dso:similarity_value "0.2222222222222222"^^xsd:float .
+
+dso:SSM_WatERPOntology_might_KaaIoTData_description a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:description,
+        dso:might ;
+    dso:similarity_value "0.25"^^xsd:float .
+
+dso:SSM_WatERPOntology_model_KaaIoTData_sensor a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:model,
+        dso:sensor ;
+    dso:similarity_value "0.18181818181818182"^^xsd:float .
+
+dso:SSM_WatERPOntology_number_KaaIoTData_description a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:description,
+        dso:number ;
+    dso:similarity_value "0.23529411764705882"^^xsd:float .
+
+dso:SSM_WatERPOntology_observation_KaaIoTData_model a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:model,
+        dso:observation ;
+    dso:similarity_value "0.25"^^xsd:float .
+
+dso:SSM_WatERPOntology_observation_KaaIoTData_sensor a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:observation,
+        dso:sensor ;
+    dso:similarity_value "0.35294117647058826"^^xsd:float .
+
+dso:SSM_WatERPOntology_observation_KaaIoTData_value a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:observation,
+        dso:value ;
+    dso:similarity_value "0.25"^^xsd:float .
+
+dso:SSM_WatERPOntology_observations_KaaIoTData_description a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:description,
+        dso:observations ;
+    dso:similarity_value "0.5217391304347826"^^xsd:float .
+
+dso:SSM_WatERPOntology_observationvalue_KaaIoTData_model a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:model,
+        dso:observationvalue ;
+    dso:similarity_value "0.2857142857142857"^^xsd:float .
+
+dso:SSM_WatERPOntology_observationvalue_KaaIoTData_sensor a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:observationvalue,
+        dso:sensor ;
+    dso:similarity_value "0.2727272727272727"^^xsd:float .
+
+dso:SSM_WatERPOntology_observed_KaaIoTData_values a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:observed,
+        dso:values ;
+    dso:similarity_value "0.2857142857142857"^^xsd:float .
+
+dso:SSM_WatERPOntology_operating_KaaIoTData_temperature a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:operating,
+        dso:temperature ;
+    dso:similarity_value "0.5"^^xsd:float .
+
+dso:SSM_WatERPOntology_particular_KaaIoTData_values a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:particular,
+        dso:values ;
+    dso:similarity_value "0.25"^^xsd:float .
+
+dso:SSM_WatERPOntology_platform_KaaIoTData_temperature a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:platform,
+        dso:temperature ;
+    dso:similarity_value "0.42105263157894735"^^xsd:float .
+
+dso:SSM_WatERPOntology_power_KaaIoTData_description a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:description,
+        dso:power ;
+    dso:similarity_value "0.25"^^xsd:float .
+
+dso:SSM_WatERPOntology_procedure_KaaIoTData_values a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:procedure,
+        dso:values ;
+    dso:similarity_value "0.26666666666666666"^^xsd:float .
+
+dso:SSM_WatERPOntology_property_KaaIoTData_model a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:model,
+        dso:property ;
+    dso:similarity_value "0.3076923076923077"^^xsd:float .
+
+dso:SSM_WatERPOntology_property_KaaIoTData_sensor a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:property,
+        dso:sensor ;
+    dso:similarity_value "0.2857142857142857"^^xsd:float .
+
+dso:SSM_WatERPOntology_quality_KaaIoTData_value a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:quality,
+        dso:value ;
+    dso:similarity_value "0.3333333333333333"^^xsd:float .
+
+dso:SSM_WatERPOntology_range_KaaIoTData_temperature a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:range,
+        dso:temperature ;
+    dso:similarity_value "0.375"^^xsd:float .
+
+dso:SSM_WatERPOntology_range_KaaIoTData_values a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:range,
+        dso:values ;
+    dso:similarity_value "0.36363636363636365"^^xsd:float .
+
+dso:SSM_WatERPOntology_result_KaaIoTData_value a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:result,
+        dso:value ;
+    dso:similarity_value "0.18181818181818182"^^xsd:float .
+
+dso:SSM_WatERPOntology_seealso_KaaIoTData_model a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:model,
+        dso:seealso ;
+    dso:similarity_value "0.16666666666666666"^^xsd:float .
+
+dso:SSM_WatERPOntology_seealso_KaaIoTData_sensor a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:seealso,
+        dso:sensor ;
+    dso:similarity_value "0.6153846153846154"^^xsd:float .
+
+dso:SSM_WatERPOntology_sensor_KaaIoTData_model a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:model,
+        dso:sensor ;
+    dso:similarity_value "0.18181818181818182"^^xsd:float .
+
+dso:SSM_WatERPOntology_similar_KaaIoTData_description a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:description,
+        dso:similar ;
+    dso:similarity_value "0.2222222222222222"^^xsd:float .
+
+dso:SSM_WatERPOntology_situation_KaaIoTData_value a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:situation,
+        dso:value ;
+    dso:similarity_value "0.14285714285714285"^^xsd:float .
+
+dso:SSM_WatERPOntology_skos_KaaIoTData_values a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:skos,
+        dso:values ;
+    dso:similarity_value "0.2"^^xsd:float .
+
+dso:SSM_WatERPOntology_source_KaaIoTData_value a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:source,
+        dso:value ;
+    dso:similarity_value "0.36363636363636365"^^xsd:float .
+
+dso:SSM_WatERPOntology_system_KaaIoTData_value a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:system,
+        dso:value ;
+    dso:similarity_value "0.18181818181818182"^^xsd:float .
+
+dso:SSM_WatERPOntology_systems_KaaIoTData_description a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:description,
+        dso:systems ;
+    dso:similarity_value "0.2222222222222222"^^xsd:float .
+
+dso:SSM_WatERPOntology_time_KaaIoTData_temperature a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:temperature,
+        dso:time ;
+    dso:similarity_value "0.26666666666666666"^^xsd:float .
+
+dso:SSM_WatERPOntology_used_KaaIoTData_temperature a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:temperature,
+        dso:used ;
+    dso:similarity_value "0.13333333333333333"^^xsd:float .
+
+dso:SSM_WatERPOntology_vim_KaaIoTData_model a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:model,
+        dso:vim ;
+    dso:similarity_value "0.25"^^xsd:float .
+
+dso:SSM_WatERPOntology_vim_KaaIoTData_sensor a dso:SSM_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:sensor,
+        dso:vim ;
+    dso:similarity_value "0.0"^^xsd:float .
+
+dso:W2V_GOIoTP_activity_KaaIoTData_temperature a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:activity,
+        dso:temperature ;
+    dso:similarity_value "0.9991582036018372"^^xsd:float .
+
+dso:W2V_GOIoTP_actuation_KaaIoTData_description a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:actuation,
+        dso:description ;
+    dso:similarity_value "0.9995172619819641"^^xsd:float .
+
+dso:W2V_GOIoTP_actuation_KaaIoTData_temperature a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:actuation,
+        dso:temperature ;
+    dso:similarity_value "0.9992967844009399"^^xsd:float .
+
+dso:W2V_GOIoTP_classes_KaaIoTData_values a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:classes,
+        dso:values ;
+    dso:similarity_value "0.3550916910171509"^^xsd:float .
+
+dso:W2V_GOIoTP_comment_KaaIoTData_description a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:comment,
+        dso:description ;
+    dso:similarity_value "0.9996606111526489"^^xsd:float .
+
+dso:W2V_GOIoTP_comment_KaaIoTData_name a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:comment,
+        dso:name ;
+    dso:similarity_value "0.9981207251548767"^^xsd:float .
+
+dso:W2V_GOIoTP_comment_KaaIoTData_sensor a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:comment,
+        dso:sensor ;
+    dso:similarity_value "0.9993726015090942"^^xsd:float .
+
+dso:W2V_GOIoTP_comment_KaaIoTData_temperature a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:comment,
+        dso:temperature ;
+    dso:similarity_value "0.9992710947990417"^^xsd:float .
+
+dso:W2V_GOIoTP_contact_KaaIoTData_values a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:contact,
+        dso:values ;
+    dso:similarity_value "0.30685219168663025"^^xsd:float .
+
+dso:W2V_GOIoTP_core_KaaIoTData_description a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:core,
+        dso:description ;
+    dso:similarity_value "0.999528706073761"^^xsd:float .
+
+dso:W2V_GOIoTP_core_KaaIoTData_sensor a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:core,
+        dso:sensor ;
+    dso:similarity_value "0.9992328882217407"^^xsd:float .
+
+dso:W2V_GOIoTP_core_KaaIoTData_temperature a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:core,
+        dso:temperature ;
+    dso:similarity_value "0.9991766810417175"^^xsd:float .
+
+dso:W2V_GOIoTP_description_KaaIoTData_name a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:description,
+        dso:name ;
+    dso:similarity_value "0.9982954263687134"^^xsd:float .
+
+dso:W2V_GOIoTP_description_KaaIoTData_sensor a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:description,
+        dso:sensor ;
+    dso:similarity_value "0.9994522929191589"^^xsd:float .
+
+dso:W2V_GOIoTP_device_KaaIoTData_description a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:description,
+        dso:device ;
+    dso:similarity_value "0.9996758103370667"^^xsd:float .
+
+dso:W2V_GOIoTP_device_KaaIoTData_name a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:device,
+        dso:name ;
+    dso:similarity_value "0.9981525540351868"^^xsd:float .
+
+dso:W2V_GOIoTP_device_KaaIoTData_sensor a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:device,
+        dso:sensor ;
+    dso:similarity_value "0.9993744492530823"^^xsd:float .
+
+dso:W2V_GOIoTP_device_KaaIoTData_temperature a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:device,
+        dso:temperature ;
+    dso:similarity_value "0.9992927312850952"^^xsd:float .
+
+dso:W2V_GOIoTP_entities_KaaIoTData_description a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:description,
+        dso:entities ;
+    dso:similarity_value "0.9996622204780579"^^xsd:float .
+
+dso:W2V_GOIoTP_entities_KaaIoTData_sensor a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:entities,
+        dso:sensor ;
+    dso:similarity_value "0.9993276596069336"^^xsd:float .
+
+dso:W2V_GOIoTP_entity_KaaIoTData_description a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:description,
+        dso:entity ;
+    dso:similarity_value "0.9995752573013306"^^xsd:float .
+
+dso:W2V_GOIoTP_entity_KaaIoTData_sensor a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:entity,
+        dso:sensor ;
+    dso:similarity_value "0.9993550777435303"^^xsd:float .
+
+dso:W2V_GOIoTP_entity_KaaIoTData_temperature a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:entity,
+        dso:temperature ;
+    dso:similarity_value "0.9993777275085449"^^xsd:float .
+
+dso:W2V_GOIoTP_example_KaaIoTData_description a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:description,
+        dso:example ;
+    dso:similarity_value "0.9995884299278259"^^xsd:float .
+
+dso:W2V_GOIoTP_example_KaaIoTData_name a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:example,
+        dso:name ;
+    dso:similarity_value "0.9980318546295166"^^xsd:float .
+
+dso:W2V_GOIoTP_example_KaaIoTData_sensor a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:example,
+        dso:sensor ;
+    dso:similarity_value "0.9993087649345398"^^xsd:float .
+
+dso:W2V_GOIoTP_example_KaaIoTData_temperature a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:example,
+        dso:temperature ;
+    dso:similarity_value "0.9991719722747803"^^xsd:float .
+
+dso:W2V_GOIoTP_hasdescription_KaaIoTData_values a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:hasdescription,
+        dso:values ;
+    dso:similarity_value "0.3179854452610016"^^xsd:float .
+
+dso:W2V_GOIoTP_hassemantics_KaaIoTData_values a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:hassemantics,
+        dso:values ;
+    dso:similarity_value "0.29174864292144775"^^xsd:float .
+
+dso:W2V_GOIoTP_hasserviceinterface_KaaIoTData_values a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:hasserviceinterface,
+        dso:values ;
+    dso:similarity_value "0.31713882088661194"^^xsd:float .
+
+dso:W2V_GOIoTP_http_KaaIoTData_temperature a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:http,
+        dso:temperature ;
+    dso:similarity_value "0.9992265105247498"^^xsd:float .
+
+dso:W2V_GOIoTP_implements_KaaIoTData_values a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:implements,
+        dso:values ;
+    dso:similarity_value "0.3154580891132355"^^xsd:float .
+
+dso:W2V_GOIoTP_making_KaaIoTData_description a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:description,
+        dso:making ;
+    dso:similarity_value "0.9995186924934387"^^xsd:float .
+
+dso:W2V_GOIoTP_making_KaaIoTData_name a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:making,
+        dso:name ;
+    dso:similarity_value "0.9980543851852417"^^xsd:float .
+
+dso:W2V_GOIoTP_making_KaaIoTData_sensor a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:making,
+        dso:sensor ;
+    dso:similarity_value "0.9991874694824219"^^xsd:float .
+
+dso:W2V_GOIoTP_modified_KaaIoTData_values a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:modified,
+        dso:values ;
+    dso:similarity_value "0.30792784690856934"^^xsd:float .
+
+dso:W2V_GOIoTP_observation_KaaIoTData_temperature a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:observation,
+        dso:temperature ;
+    dso:similarity_value "0.9992895126342773"^^xsd:float .
+
+dso:W2V_GOIoTP_platformcomponent_KaaIoTData_values a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:platformcomponent,
+        dso:values ;
+    dso:similarity_value "0.3162893056869507"^^xsd:float .
+
+dso:W2V_GOIoTP_prefix_KaaIoTData_name a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:name,
+        dso:prefix ;
+    dso:similarity_value "0.9982163310050964"^^xsd:float .
+
+dso:W2V_GOIoTP_prefix_KaaIoTData_sensor a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:prefix,
+        dso:sensor ;
+    dso:similarity_value "0.9992552399635315"^^xsd:float .
+
+dso:W2V_GOIoTP_project_KaaIoTData_name a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:name,
+        dso:project ;
+    dso:similarity_value "0.9981566667556763"^^xsd:float .
+
+dso:W2V_GOIoTP_sensor_KaaIoTData_name a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:name,
+        dso:sensor ;
+    dso:similarity_value "0.998174786567688"^^xsd:float .
+
+dso:W2V_GOIoTP_skos_KaaIoTData_description a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:description,
+        dso:skos ;
+    dso:similarity_value "0.9995021820068359"^^xsd:float .
+
+dso:W2V_GOIoTP_smart_KaaIoTData_description a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:description,
+        dso:smart ;
+    dso:similarity_value "0.9996235966682434"^^xsd:float .
+
+dso:W2V_GOIoTP_smart_KaaIoTData_name a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:name,
+        dso:smart ;
+    dso:similarity_value "0.9981611371040344"^^xsd:float .
+
+dso:W2V_GOIoTP_smart_KaaIoTData_sensor a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:sensor,
+        dso:smart ;
+    dso:similarity_value "0.9993282556533813"^^xsd:float .
+
+dso:W2V_GOIoTP_smart_KaaIoTData_temperature a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:smart,
+        dso:temperature ;
+    dso:similarity_value "0.9992267489433289"^^xsd:float .
+
+dso:W2V_GOIoTP_truck_KaaIoTData_name a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:name,
+        dso:truck ;
+    dso:similarity_value "0.9980394840240479"^^xsd:float .
+
+dso:W2V_GOIoTP_versioninfo_KaaIoTData_values a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:values,
+        dso:versioninfo ;
+    dso:similarity_value "0.3201250731945038"^^xsd:float .
+
+dso:W2V_GOIoTP_vocabulary_KaaIoTData_values a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:GOIoTP ;
+    dso:ref_Term dso:values,
+        dso:vocabulary ;
+    dso:similarity_value "0.3323603868484497"^^xsd:float .
+
+dso:W2V_SNN_activity_KaaIoTData_temperature a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:activity,
+        dso:temperature ;
+    dso:similarity_value "0.9991582036018372"^^xsd:float .
+
+dso:W2V_SNN_actuation_KaaIoTData_description a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:actuation,
+        dso:description ;
+    dso:similarity_value "0.9995172619819641"^^xsd:float .
+
+dso:W2V_SNN_actuation_KaaIoTData_temperature a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:actuation,
+        dso:temperature ;
+    dso:similarity_value "0.9992967844009399"^^xsd:float .
+
+dso:W2V_SNN_classes_KaaIoTData_values a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:classes,
+        dso:values ;
+    dso:similarity_value "0.3550916910171509"^^xsd:float .
+
+dso:W2V_SNN_comment_KaaIoTData_description a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:comment,
+        dso:description ;
+    dso:similarity_value "0.9996606111526489"^^xsd:float .
+
+dso:W2V_SNN_comment_KaaIoTData_name a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:comment,
+        dso:name ;
+    dso:similarity_value "0.9981207251548767"^^xsd:float .
+
+dso:W2V_SNN_comment_KaaIoTData_sensor a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:comment,
+        dso:sensor ;
+    dso:similarity_value "0.9993726015090942"^^xsd:float .
+
+dso:W2V_SNN_comment_KaaIoTData_temperature a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:comment,
+        dso:temperature ;
+    dso:similarity_value "0.9992710947990417"^^xsd:float .
+
+dso:W2V_SNN_contact_KaaIoTData_values a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:contact,
+        dso:values ;
+    dso:similarity_value "0.30685219168663025"^^xsd:float .
+
+dso:W2V_SNN_core_KaaIoTData_description a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:core,
+        dso:description ;
+    dso:similarity_value "0.999528706073761"^^xsd:float .
+
+dso:W2V_SNN_core_KaaIoTData_sensor a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:core,
+        dso:sensor ;
+    dso:similarity_value "0.9992328882217407"^^xsd:float .
+
+dso:W2V_SNN_core_KaaIoTData_temperature a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:core,
+        dso:temperature ;
+    dso:similarity_value "0.9991766810417175"^^xsd:float .
+
+dso:W2V_SNN_description_KaaIoTData_name a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:description,
+        dso:name ;
+    dso:similarity_value "0.9982954263687134"^^xsd:float .
+
+dso:W2V_SNN_description_KaaIoTData_sensor a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:description,
+        dso:sensor ;
+    dso:similarity_value "0.9994522929191589"^^xsd:float .
+
+dso:W2V_SNN_device_KaaIoTData_description a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:description,
+        dso:device ;
+    dso:similarity_value "0.9996758103370667"^^xsd:float .
+
+dso:W2V_SNN_device_KaaIoTData_name a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:device,
+        dso:name ;
+    dso:similarity_value "0.9981525540351868"^^xsd:float .
+
+dso:W2V_SNN_device_KaaIoTData_sensor a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:device,
+        dso:sensor ;
+    dso:similarity_value "0.9993744492530823"^^xsd:float .
+
+dso:W2V_SNN_device_KaaIoTData_temperature a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:device,
+        dso:temperature ;
+    dso:similarity_value "0.9992927312850952"^^xsd:float .
+
+dso:W2V_SNN_entities_KaaIoTData_description a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:description,
+        dso:entities ;
+    dso:similarity_value "0.9996622204780579"^^xsd:float .
+
+dso:W2V_SNN_entities_KaaIoTData_sensor a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:entities,
+        dso:sensor ;
+    dso:similarity_value "0.9993276596069336"^^xsd:float .
+
+dso:W2V_SNN_entity_KaaIoTData_description a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:description,
+        dso:entity ;
+    dso:similarity_value "0.9995752573013306"^^xsd:float .
+
+dso:W2V_SNN_entity_KaaIoTData_sensor a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:entity,
+        dso:sensor ;
+    dso:similarity_value "0.9993550777435303"^^xsd:float .
+
+dso:W2V_SNN_entity_KaaIoTData_temperature a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:entity,
+        dso:temperature ;
+    dso:similarity_value "0.9993777275085449"^^xsd:float .
+
+dso:W2V_SNN_example_KaaIoTData_description a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:description,
+        dso:example ;
+    dso:similarity_value "0.9995884299278259"^^xsd:float .
+
+dso:W2V_SNN_example_KaaIoTData_name a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:example,
+        dso:name ;
+    dso:similarity_value "0.9980318546295166"^^xsd:float .
+
+dso:W2V_SNN_example_KaaIoTData_sensor a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:example,
+        dso:sensor ;
+    dso:similarity_value "0.9993087649345398"^^xsd:float .
+
+dso:W2V_SNN_example_KaaIoTData_temperature a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:example,
+        dso:temperature ;
+    dso:similarity_value "0.9991719722747803"^^xsd:float .
+
+dso:W2V_SNN_hasdescription_KaaIoTData_values a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:hasdescription,
+        dso:values ;
+    dso:similarity_value "0.3179854452610016"^^xsd:float .
+
+dso:W2V_SNN_hassemantics_KaaIoTData_values a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:hassemantics,
+        dso:values ;
+    dso:similarity_value "0.29174864292144775"^^xsd:float .
+
+dso:W2V_SNN_hasserviceinterface_KaaIoTData_values a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:hasserviceinterface,
+        dso:values ;
+    dso:similarity_value "0.31713882088661194"^^xsd:float .
+
+dso:W2V_SNN_http_KaaIoTData_temperature a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:http,
+        dso:temperature ;
+    dso:similarity_value "0.9992265105247498"^^xsd:float .
+
+dso:W2V_SNN_implements_KaaIoTData_values a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:implements,
+        dso:values ;
+    dso:similarity_value "0.3154580891132355"^^xsd:float .
+
+dso:W2V_SNN_making_KaaIoTData_description a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:description,
+        dso:making ;
+    dso:similarity_value "0.9995186924934387"^^xsd:float .
+
+dso:W2V_SNN_making_KaaIoTData_name a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:making,
+        dso:name ;
+    dso:similarity_value "0.9980543851852417"^^xsd:float .
+
+dso:W2V_SNN_making_KaaIoTData_sensor a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:making,
+        dso:sensor ;
+    dso:similarity_value "0.9991874694824219"^^xsd:float .
+
+dso:W2V_SNN_modified_KaaIoTData_values a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:modified,
+        dso:values ;
+    dso:similarity_value "0.30792784690856934"^^xsd:float .
+
+dso:W2V_SNN_observation_KaaIoTData_temperature a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:observation,
+        dso:temperature ;
+    dso:similarity_value "0.9992895126342773"^^xsd:float .
+
+dso:W2V_SNN_platformcomponent_KaaIoTData_values a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:platformcomponent,
+        dso:values ;
+    dso:similarity_value "0.3162893056869507"^^xsd:float .
+
+dso:W2V_SNN_prefix_KaaIoTData_name a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:name,
+        dso:prefix ;
+    dso:similarity_value "0.9982163310050964"^^xsd:float .
+
+dso:W2V_SNN_prefix_KaaIoTData_sensor a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:prefix,
+        dso:sensor ;
+    dso:similarity_value "0.9992552399635315"^^xsd:float .
+
+dso:W2V_SNN_project_KaaIoTData_name a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:name,
+        dso:project ;
+    dso:similarity_value "0.9981566667556763"^^xsd:float .
+
+dso:W2V_SNN_sensor_KaaIoTData_name a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:name,
+        dso:sensor ;
+    dso:similarity_value "0.998174786567688"^^xsd:float .
+
+dso:W2V_SNN_skos_KaaIoTData_description a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:description,
+        dso:skos ;
+    dso:similarity_value "0.9995021820068359"^^xsd:float .
+
+dso:W2V_SNN_smart_KaaIoTData_description a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:description,
+        dso:smart ;
+    dso:similarity_value "0.9996235966682434"^^xsd:float .
+
+dso:W2V_SNN_smart_KaaIoTData_name a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:name,
+        dso:smart ;
+    dso:similarity_value "0.9981611371040344"^^xsd:float .
+
+dso:W2V_SNN_smart_KaaIoTData_sensor a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:sensor,
+        dso:smart ;
+    dso:similarity_value "0.9993282556533813"^^xsd:float .
+
+dso:W2V_SNN_smart_KaaIoTData_temperature a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:smart,
+        dso:temperature ;
+    dso:similarity_value "0.9992267489433289"^^xsd:float .
+
+dso:W2V_SNN_truck_KaaIoTData_name a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:name,
+        dso:truck ;
+    dso:similarity_value "0.9980394840240479"^^xsd:float .
+
+dso:W2V_SNN_versioninfo_KaaIoTData_values a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:values,
+        dso:versioninfo ;
+    dso:similarity_value "0.3201250731945038"^^xsd:float .
+
+dso:W2V_SNN_vocabulary_KaaIoTData_values a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:SNN ;
+    dso:ref_Term dso:values,
+        dso:vocabulary ;
+    dso:similarity_value "0.3323603868484497"^^xsd:float .
+
+dso:W2V_WatERPOntology_act_KaaIoTData_values a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:act,
+        dso:values ;
+    dso:similarity_value "0.9983362555503845"^^xsd:float .
+
+dso:W2V_WatERPOntology_amp_KaaIoTData_model a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:amp,
+        dso:model ;
+    dso:similarity_value "0.9725711941719055"^^xsd:float .
+
+dso:W2V_WatERPOntology_amp_KaaIoTData_sensor a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:amp,
+        dso:sensor ;
+    dso:similarity_value "0.9837527871131897"^^xsd:float .
+
+dso:W2V_WatERPOntology_amp_KaaIoTData_value a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:amp,
+        dso:value ;
+    dso:similarity_value "0.9976223707199097"^^xsd:float .
+
+dso:W2V_WatERPOntology_associated_KaaIoTData_values a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:associated,
+        dso:values ;
+    dso:similarity_value "0.9980522394180298"^^xsd:float .
+
+dso:W2V_WatERPOntology_capability_KaaIoTData_temperature a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:capability,
+        dso:temperature ;
+    dso:similarity_value "0.9985066652297974"^^xsd:float .
+
+dso:W2V_WatERPOntology_defined_KaaIoTData_description a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:defined,
+        dso:description ;
+    dso:similarity_value "0.9987622499465942"^^xsd:float .
+
+dso:W2V_WatERPOntology_deployed_KaaIoTData_temperature a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:deployed,
+        dso:temperature ;
+    dso:similarity_value "0.9978712201118469"^^xsd:float .
+
+dso:W2V_WatERPOntology_described_KaaIoTData_values a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:described,
+        dso:values ;
+    dso:similarity_value "0.9982401728630066"^^xsd:float .
+
+dso:W2V_WatERPOntology_dis_KaaIoTData_model a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:dis,
+        dso:model ;
+    dso:similarity_value "0.980114221572876"^^xsd:float .
+
+dso:W2V_WatERPOntology_dis_KaaIoTData_sensor a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:dis,
+        dso:sensor ;
+    dso:similarity_value "0.9864636659622192"^^xsd:float .
+
+dso:W2V_WatERPOntology_entity_KaaIoTData_values a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:entity,
+        dso:values ;
+    dso:similarity_value "0.998091459274292"^^xsd:float .
+
+dso:W2V_WatERPOntology_etc_KaaIoTData_sensor a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:etc,
+        dso:sensor ;
+    dso:similarity_value "0.9786307215690613"^^xsd:float .
+
+dso:W2V_WatERPOntology_etc_KaaIoTData_value a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:etc,
+        dso:value ;
+    dso:similarity_value "0.9984029531478882"^^xsd:float .
+
+dso:W2V_WatERPOntology_event_KaaIoTData_value a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:event,
+        dso:value ;
+    dso:similarity_value "0.9970207810401917"^^xsd:float .
+
+dso:W2V_WatERPOntology_exactmatch_KaaIoTData_temperature a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:exactmatch,
+        dso:temperature ;
+    dso:similarity_value "0.9970757961273193"^^xsd:float .
+
+dso:W2V_WatERPOntology_example_KaaIoTData_values a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:example,
+        dso:values ;
+    dso:similarity_value "0.9987043142318726"^^xsd:float .
+
+dso:W2V_WatERPOntology_feature_KaaIoTData_value a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:feature,
+        dso:value ;
+    dso:similarity_value "0.996396541595459"^^xsd:float .
+
+dso:W2V_WatERPOntology_featureofinterest_KaaIoTData_model a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:featureofinterest,
+        dso:model ;
+    dso:similarity_value "0.9749859571456909"^^xsd:float .
+
+dso:W2V_WatERPOntology_featureofinterest_KaaIoTData_sensor a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:featureofinterest,
+        dso:sensor ;
+    dso:similarity_value "0.983167290687561"^^xsd:float .
+
+dso:W2V_WatERPOntology_haspart_KaaIoTData_model a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:haspart,
+        dso:model ;
+    dso:similarity_value "0.9767994284629822"^^xsd:float .
+
+dso:W2V_WatERPOntology_life_KaaIoTData_description a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:description,
+        dso:life ;
+    dso:similarity_value "0.9993299841880798"^^xsd:float .
+
+dso:W2V_WatERPOntology_made_KaaIoTData_temperature a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:made,
+        dso:temperature ;
+    dso:similarity_value "0.9980382919311523"^^xsd:float .
+
+dso:W2V_WatERPOntology_maintenance_KaaIoTData_description a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:description,
+        dso:maintenance ;
+    dso:similarity_value "0.9989172220230103"^^xsd:float .
+
+dso:W2V_WatERPOntology_measurement_KaaIoTData_temperature a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:measurement,
+        dso:temperature ;
+    dso:similarity_value "0.9979623556137085"^^xsd:float .
+
+dso:W2V_WatERPOntology_methods_KaaIoTData_description a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:description,
+        dso:methods ;
+    dso:similarity_value "0.9987645745277405"^^xsd:float .
+
+dso:W2V_WatERPOntology_might_KaaIoTData_description a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:description,
+        dso:might ;
+    dso:similarity_value "0.999054491519928"^^xsd:float .
+
+dso:W2V_WatERPOntology_model_KaaIoTData_sensor a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:model,
+        dso:sensor ;
+    dso:similarity_value "0.9918489456176758"^^xsd:float .
+
+dso:W2V_WatERPOntology_number_KaaIoTData_description a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:description,
+        dso:number ;
+    dso:similarity_value "0.998697817325592"^^xsd:float .
+
+dso:W2V_WatERPOntology_observation_KaaIoTData_model a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:model,
+        dso:observation ;
+    dso:similarity_value "0.9740099310874939"^^xsd:float .
+
+dso:W2V_WatERPOntology_observation_KaaIoTData_sensor a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:observation,
+        dso:sensor ;
+    dso:similarity_value "0.9880499243736267"^^xsd:float .
+
+dso:W2V_WatERPOntology_observation_KaaIoTData_value a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:observation,
+        dso:value ;
+    dso:similarity_value "0.9977765083312988"^^xsd:float .
+
+dso:W2V_WatERPOntology_observations_KaaIoTData_description a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:description,
+        dso:observations ;
+    dso:similarity_value "0.9987777471542358"^^xsd:float .
+
+dso:W2V_WatERPOntology_observationvalue_KaaIoTData_model a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:model,
+        dso:observationvalue ;
+    dso:similarity_value "0.9772930145263672"^^xsd:float .
+
+dso:W2V_WatERPOntology_observationvalue_KaaIoTData_sensor a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:observationvalue,
+        dso:sensor ;
+    dso:similarity_value "0.9832711815834045"^^xsd:float .
+
+dso:W2V_WatERPOntology_observed_KaaIoTData_values a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:observed,
+        dso:values ;
+    dso:similarity_value "0.9994007349014282"^^xsd:float .
+
+dso:W2V_WatERPOntology_operating_KaaIoTData_temperature a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:operating,
+        dso:temperature ;
+    dso:similarity_value "0.9977400302886963"^^xsd:float .
+
+dso:W2V_WatERPOntology_particular_KaaIoTData_values a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:particular,
+        dso:values ;
+    dso:similarity_value "0.9987568855285645"^^xsd:float .
+
+dso:W2V_WatERPOntology_platform_KaaIoTData_temperature a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:platform,
+        dso:temperature ;
+    dso:similarity_value "0.9985551238059998"^^xsd:float .
+
+dso:W2V_WatERPOntology_power_KaaIoTData_description a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:description,
+        dso:power ;
+    dso:similarity_value "0.9987598061561584"^^xsd:float .
+
+dso:W2V_WatERPOntology_procedure_KaaIoTData_values a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:procedure,
+        dso:values ;
+    dso:similarity_value "0.9982950687408447"^^xsd:float .
+
+dso:W2V_WatERPOntology_property_KaaIoTData_model a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:model,
+        dso:property ;
+    dso:similarity_value "0.9884204268455505"^^xsd:float .
+
+dso:W2V_WatERPOntology_property_KaaIoTData_sensor a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:property,
+        dso:sensor ;
+    dso:similarity_value "0.9987428784370422"^^xsd:float .
+
+dso:W2V_WatERPOntology_quality_KaaIoTData_value a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:quality,
+        dso:value ;
+    dso:similarity_value "0.9982165098190308"^^xsd:float .
+
+dso:W2V_WatERPOntology_range_KaaIoTData_temperature a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:range,
+        dso:temperature ;
+    dso:similarity_value "0.997103214263916"^^xsd:float .
+
+dso:W2V_WatERPOntology_range_KaaIoTData_values a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:range,
+        dso:values ;
+    dso:similarity_value "0.998437225818634"^^xsd:float .
+
+dso:W2V_WatERPOntology_result_KaaIoTData_value a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:result,
+        dso:value ;
+    dso:similarity_value "0.9950055480003357"^^xsd:float .
+
+dso:W2V_WatERPOntology_seealso_KaaIoTData_model a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:model,
+        dso:seealso ;
+    dso:similarity_value "0.9870817065238953"^^xsd:float .
+
+dso:W2V_WatERPOntology_seealso_KaaIoTData_sensor a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:seealso,
+        dso:sensor ;
+    dso:similarity_value "0.9900051355361938"^^xsd:float .
+
+dso:W2V_WatERPOntology_sensor_KaaIoTData_model a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:model,
+        dso:sensor ;
+    dso:similarity_value "0.9918490052223206"^^xsd:float .
+
+dso:W2V_WatERPOntology_similar_KaaIoTData_description a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:description,
+        dso:similar ;
+    dso:similarity_value "0.9989609718322754"^^xsd:float .
+
+dso:W2V_WatERPOntology_situation_KaaIoTData_value a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:situation,
+        dso:value ;
+    dso:similarity_value "0.9962309002876282"^^xsd:float .
+
+dso:W2V_WatERPOntology_skos_KaaIoTData_values a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:skos,
+        dso:values ;
+    dso:similarity_value "0.9980775117874146"^^xsd:float .
+
+dso:W2V_WatERPOntology_source_KaaIoTData_value a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:source,
+        dso:value ;
+    dso:similarity_value "0.9985067248344421"^^xsd:float .
+
+dso:W2V_WatERPOntology_system_KaaIoTData_value a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:system,
+        dso:value ;
+    dso:similarity_value "0.9967902302742004"^^xsd:float .
+
+dso:W2V_WatERPOntology_systems_KaaIoTData_description a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:description,
+        dso:systems ;
+    dso:similarity_value "0.9988533854484558"^^xsd:float .
+
+dso:W2V_WatERPOntology_time_KaaIoTData_temperature a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:temperature,
+        dso:time ;
+    dso:similarity_value "0.9986417889595032"^^xsd:float .
+
+dso:W2V_WatERPOntology_used_KaaIoTData_temperature a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:temperature,
+        dso:used ;
+    dso:similarity_value "0.9980096220970154"^^xsd:float .
+
+dso:W2V_WatERPOntology_vim_KaaIoTData_model a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:model,
+        dso:vim ;
+    dso:similarity_value "0.984007716178894"^^xsd:float .
+
+dso:W2V_WatERPOntology_vim_KaaIoTData_sensor a dso:W2V_Similarity ;
+    dso:ref_IoT_Data dso:KaaIoTData ;
+    dso:ref_Ontology dso:WatERPOntology ;
+    dso:ref_Term dso:sensor,
+        dso:vim ;
+    dso:similarity_value "0.9928433895111084"^^xsd:float .
+
+dso:act a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_act_KaaIoTData_values,
+        dso:W2V_WatERPOntology_act_KaaIoTData_values ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:associated a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_associated_KaaIoTData_values,
+        dso:W2V_WatERPOntology_associated_KaaIoTData_values ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:capability a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_capability_KaaIoTData_temperature,
+        dso:W2V_WatERPOntology_capability_KaaIoTData_temperature ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:defined a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_defined_KaaIoTData_description,
+        dso:W2V_WatERPOntology_defined_KaaIoTData_description ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:deployed a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_deployed_KaaIoTData_temperature,
+        dso:W2V_WatERPOntology_deployed_KaaIoTData_temperature ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:described a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_described_KaaIoTData_values,
+        dso:W2V_WatERPOntology_described_KaaIoTData_values ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:event a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_event_KaaIoTData_value,
+        dso:W2V_WatERPOntology_event_KaaIoTData_value ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:exactmatch a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_exactmatch_KaaIoTData_temperature,
+        dso:W2V_WatERPOntology_exactmatch_KaaIoTData_temperature ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:feature a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_feature_KaaIoTData_value,
+        dso:W2V_WatERPOntology_feature_KaaIoTData_value ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:haspart a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_haspart_KaaIoTData_model,
+        dso:W2V_WatERPOntology_haspart_KaaIoTData_model ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:life a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_life_KaaIoTData_description,
+        dso:W2V_WatERPOntology_life_KaaIoTData_description ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:made a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_made_KaaIoTData_temperature,
+        dso:W2V_WatERPOntology_made_KaaIoTData_temperature ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:maintenance a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_maintenance_KaaIoTData_description,
+        dso:W2V_WatERPOntology_maintenance_KaaIoTData_description ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:measurement a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_measurement_KaaIoTData_temperature,
+        dso:W2V_WatERPOntology_measurement_KaaIoTData_temperature ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:methods a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_methods_KaaIoTData_description,
+        dso:W2V_WatERPOntology_methods_KaaIoTData_description ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:might a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_might_KaaIoTData_description,
+        dso:W2V_WatERPOntology_might_KaaIoTData_description ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:number a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_number_KaaIoTData_description,
+        dso:W2V_WatERPOntology_number_KaaIoTData_description ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:observations a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_observations_KaaIoTData_description,
+        dso:W2V_WatERPOntology_observations_KaaIoTData_description ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:observed a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_observed_KaaIoTData_values,
+        dso:W2V_WatERPOntology_observed_KaaIoTData_values ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:operating a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_operating_KaaIoTData_temperature,
+        dso:W2V_WatERPOntology_operating_KaaIoTData_temperature ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:particular a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_particular_KaaIoTData_values,
+        dso:W2V_WatERPOntology_particular_KaaIoTData_values ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:platform a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_platform_KaaIoTData_temperature,
+        dso:W2V_WatERPOntology_platform_KaaIoTData_temperature ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:power a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_power_KaaIoTData_description,
+        dso:W2V_WatERPOntology_power_KaaIoTData_description ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:procedure a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_procedure_KaaIoTData_values,
+        dso:W2V_WatERPOntology_procedure_KaaIoTData_values ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:quality a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_quality_KaaIoTData_value,
+        dso:W2V_WatERPOntology_quality_KaaIoTData_value ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:result a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_result_KaaIoTData_value,
+        dso:W2V_WatERPOntology_result_KaaIoTData_value ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:similar a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_similar_KaaIoTData_description,
+        dso:W2V_WatERPOntology_similar_KaaIoTData_description ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:situation a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_situation_KaaIoTData_value,
+        dso:W2V_WatERPOntology_situation_KaaIoTData_value ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:source a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_source_KaaIoTData_value,
+        dso:W2V_WatERPOntology_source_KaaIoTData_value ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:system a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_system_KaaIoTData_value,
+        dso:W2V_WatERPOntology_system_KaaIoTData_value ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:systems a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_systems_KaaIoTData_description,
+        dso:W2V_WatERPOntology_systems_KaaIoTData_description ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:time a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_time_KaaIoTData_temperature,
+        dso:W2V_WatERPOntology_time_KaaIoTData_temperature ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:used a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_used_KaaIoTData_temperature,
+        dso:W2V_WatERPOntology_used_KaaIoTData_temperature ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:dis a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_dis_KaaIoTData_model,
+        dso:SSM_WatERPOntology_dis_KaaIoTData_sensor,
+        dso:W2V_WatERPOntology_dis_KaaIoTData_model,
+        dso:W2V_WatERPOntology_dis_KaaIoTData_sensor ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:etc a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_etc_KaaIoTData_sensor,
+        dso:SSM_WatERPOntology_etc_KaaIoTData_value,
+        dso:W2V_WatERPOntology_etc_KaaIoTData_sensor,
+        dso:W2V_WatERPOntology_etc_KaaIoTData_value ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:featureofinterest a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_featureofinterest_KaaIoTData_model,
+        dso:SSM_WatERPOntology_featureofinterest_KaaIoTData_sensor,
+        dso:W2V_WatERPOntology_featureofinterest_KaaIoTData_model,
+        dso:W2V_WatERPOntology_featureofinterest_KaaIoTData_sensor ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:observationvalue a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_observationvalue_KaaIoTData_model,
+        dso:SSM_WatERPOntology_observationvalue_KaaIoTData_sensor,
+        dso:W2V_WatERPOntology_observationvalue_KaaIoTData_model,
+        dso:W2V_WatERPOntology_observationvalue_KaaIoTData_sensor ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:property a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_property_KaaIoTData_model,
+        dso:SSM_WatERPOntology_property_KaaIoTData_sensor,
+        dso:W2V_WatERPOntology_property_KaaIoTData_model,
+        dso:W2V_WatERPOntology_property_KaaIoTData_sensor ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:range a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_range_KaaIoTData_temperature,
+        dso:SSM_WatERPOntology_range_KaaIoTData_values,
+        dso:W2V_WatERPOntology_range_KaaIoTData_temperature,
+        dso:W2V_WatERPOntology_range_KaaIoTData_values ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:seealso a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_seealso_KaaIoTData_model,
+        dso:SSM_WatERPOntology_seealso_KaaIoTData_sensor,
+        dso:W2V_WatERPOntology_seealso_KaaIoTData_model,
+        dso:W2V_WatERPOntology_seealso_KaaIoTData_sensor ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:vim a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_vim_KaaIoTData_model,
+        dso:SSM_WatERPOntology_vim_KaaIoTData_sensor,
+        dso:W2V_WatERPOntology_vim_KaaIoTData_model,
+        dso:W2V_WatERPOntology_vim_KaaIoTData_sensor ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:activity a dso:Term ;
+    dso:has_Similarity dso:SSM_GOIoTP_activity_KaaIoTData_temperature,
+        dso:SSM_SNN_activity_KaaIoTData_temperature,
+        dso:W2V_GOIoTP_activity_KaaIoTData_temperature,
+        dso:W2V_SNN_activity_KaaIoTData_temperature ;
+    dso:term_Used_in dso:GOIoTP,
+        dso:SNN .
+
+dso:classes a dso:Term ;
+    dso:has_Similarity dso:SSM_GOIoTP_classes_KaaIoTData_values,
+        dso:SSM_SNN_classes_KaaIoTData_values,
+        dso:W2V_GOIoTP_classes_KaaIoTData_values,
+        dso:W2V_SNN_classes_KaaIoTData_values ;
+    dso:term_Used_in dso:GOIoTP,
+        dso:SNN .
+
+dso:contact a dso:Term ;
+    dso:has_Similarity dso:SSM_GOIoTP_contact_KaaIoTData_values,
+        dso:SSM_SNN_contact_KaaIoTData_values,
+        dso:W2V_GOIoTP_contact_KaaIoTData_values,
+        dso:W2V_SNN_contact_KaaIoTData_values ;
+    dso:term_Used_in dso:GOIoTP,
+        dso:SNN .
+
+dso:hasdescription a dso:Term ;
+    dso:has_Similarity dso:SSM_GOIoTP_hasdescription_KaaIoTData_values,
+        dso:SSM_SNN_hasdescription_KaaIoTData_values,
+        dso:W2V_GOIoTP_hasdescription_KaaIoTData_values,
+        dso:W2V_SNN_hasdescription_KaaIoTData_values ;
+    dso:term_Used_in dso:GOIoTP,
+        dso:SNN .
+
+dso:hassemantics a dso:Term ;
+    dso:has_Similarity dso:SSM_GOIoTP_hassemantics_KaaIoTData_values,
+        dso:SSM_SNN_hassemantics_KaaIoTData_values,
+        dso:W2V_GOIoTP_hassemantics_KaaIoTData_values,
+        dso:W2V_SNN_hassemantics_KaaIoTData_values ;
+    dso:term_Used_in dso:GOIoTP,
+        dso:SNN .
+
+dso:hasserviceinterface a dso:Term ;
+    dso:has_Similarity dso:SSM_GOIoTP_hasserviceinterface_KaaIoTData_values,
+        dso:SSM_SNN_hasserviceinterface_KaaIoTData_values,
+        dso:W2V_GOIoTP_hasserviceinterface_KaaIoTData_values,
+        dso:W2V_SNN_hasserviceinterface_KaaIoTData_values ;
+    dso:term_Used_in dso:GOIoTP,
+        dso:SNN .
+
+dso:http a dso:Term ;
+    dso:has_Similarity dso:SSM_GOIoTP_http_KaaIoTData_temperature,
+        dso:SSM_SNN_http_KaaIoTData_temperature,
+        dso:W2V_GOIoTP_http_KaaIoTData_temperature,
+        dso:W2V_SNN_http_KaaIoTData_temperature ;
+    dso:term_Used_in dso:GOIoTP,
+        dso:SNN .
+
+dso:implements a dso:Term ;
+    dso:has_Similarity dso:SSM_GOIoTP_implements_KaaIoTData_values,
+        dso:SSM_SNN_implements_KaaIoTData_values,
+        dso:W2V_GOIoTP_implements_KaaIoTData_values,
+        dso:W2V_SNN_implements_KaaIoTData_values ;
+    dso:term_Used_in dso:GOIoTP,
+        dso:SNN .
+
+dso:modified a dso:Term ;
+    dso:has_Similarity dso:SSM_GOIoTP_modified_KaaIoTData_values,
+        dso:SSM_SNN_modified_KaaIoTData_values,
+        dso:W2V_GOIoTP_modified_KaaIoTData_values,
+        dso:W2V_SNN_modified_KaaIoTData_values ;
+    dso:term_Used_in dso:GOIoTP,
+        dso:SNN .
+
+dso:platformcomponent a dso:Term ;
+    dso:has_Similarity dso:SSM_GOIoTP_platformcomponent_KaaIoTData_values,
+        dso:SSM_SNN_platformcomponent_KaaIoTData_values,
+        dso:W2V_GOIoTP_platformcomponent_KaaIoTData_values,
+        dso:W2V_SNN_platformcomponent_KaaIoTData_values ;
+    dso:term_Used_in dso:GOIoTP,
+        dso:SNN .
+
+dso:project a dso:Term ;
+    dso:has_Similarity dso:SSM_GOIoTP_project_KaaIoTData_name,
+        dso:SSM_SNN_project_KaaIoTData_name,
+        dso:W2V_GOIoTP_project_KaaIoTData_name,
+        dso:W2V_SNN_project_KaaIoTData_name ;
+    dso:term_Used_in dso:GOIoTP,
+        dso:SNN .
+
+dso:truck a dso:Term ;
+    dso:has_Similarity dso:SSM_GOIoTP_truck_KaaIoTData_name,
+        dso:SSM_SNN_truck_KaaIoTData_name,
+        dso:W2V_GOIoTP_truck_KaaIoTData_name,
+        dso:W2V_SNN_truck_KaaIoTData_name ;
+    dso:term_Used_in dso:GOIoTP,
+        dso:SNN .
+
+dso:versioninfo a dso:Term ;
+    dso:has_Similarity dso:SSM_GOIoTP_versioninfo_KaaIoTData_values,
+        dso:SSM_SNN_versioninfo_KaaIoTData_values,
+        dso:W2V_GOIoTP_versioninfo_KaaIoTData_values,
+        dso:W2V_SNN_versioninfo_KaaIoTData_values ;
+    dso:term_Used_in dso:GOIoTP,
+        dso:SNN .
+
+dso:vocabulary a dso:Term ;
+    dso:has_Similarity dso:SSM_GOIoTP_vocabulary_KaaIoTData_values,
+        dso:SSM_SNN_vocabulary_KaaIoTData_values,
+        dso:W2V_GOIoTP_vocabulary_KaaIoTData_values,
+        dso:W2V_SNN_vocabulary_KaaIoTData_values ;
+    dso:term_Used_in dso:GOIoTP,
+        dso:SNN .
+
+dso:amp a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_amp_KaaIoTData_model,
+        dso:SSM_WatERPOntology_amp_KaaIoTData_sensor,
+        dso:SSM_WatERPOntology_amp_KaaIoTData_value,
+        dso:W2V_WatERPOntology_amp_KaaIoTData_model,
+        dso:W2V_WatERPOntology_amp_KaaIoTData_sensor,
+        dso:W2V_WatERPOntology_amp_KaaIoTData_value ;
+    dso:term_Used_in dso:WatERPOntology .
+
+dso:skos a dso:Term ;
+    dso:has_Similarity dso:SSM_GOIoTP_skos_KaaIoTData_description,
+        dso:SSM_SNN_skos_KaaIoTData_description,
+        dso:SSM_WatERPOntology_skos_KaaIoTData_values,
+        dso:W2V_GOIoTP_skos_KaaIoTData_description,
+        dso:W2V_SNN_skos_KaaIoTData_description,
+        dso:W2V_WatERPOntology_skos_KaaIoTData_values ;
+    dso:term_Used_in dso:GOIoTP,
+        dso:SNN,
+        dso:WatERPOntology .
+
+dso:actuation a dso:Term ;
+    dso:has_Similarity dso:SSM_GOIoTP_actuation_KaaIoTData_description,
+        dso:SSM_GOIoTP_actuation_KaaIoTData_temperature,
+        dso:SSM_SNN_actuation_KaaIoTData_description,
+        dso:SSM_SNN_actuation_KaaIoTData_temperature,
+        dso:W2V_GOIoTP_actuation_KaaIoTData_description,
+        dso:W2V_GOIoTP_actuation_KaaIoTData_temperature,
+        dso:W2V_SNN_actuation_KaaIoTData_description,
+        dso:W2V_SNN_actuation_KaaIoTData_temperature ;
+    dso:term_Used_in dso:GOIoTP,
+        dso:SNN .
+
+dso:entities a dso:Term ;
+    dso:has_Similarity dso:SSM_GOIoTP_entities_KaaIoTData_description,
+        dso:SSM_GOIoTP_entities_KaaIoTData_sensor,
+        dso:SSM_SNN_entities_KaaIoTData_description,
+        dso:SSM_SNN_entities_KaaIoTData_sensor,
+        dso:W2V_GOIoTP_entities_KaaIoTData_description,
+        dso:W2V_GOIoTP_entities_KaaIoTData_sensor,
+        dso:W2V_SNN_entities_KaaIoTData_description,
+        dso:W2V_SNN_entities_KaaIoTData_sensor ;
+    dso:term_Used_in dso:GOIoTP,
+        dso:SNN .
+
+dso:prefix a dso:Term ;
+    dso:has_Similarity dso:SSM_GOIoTP_prefix_KaaIoTData_name,
+        dso:SSM_GOIoTP_prefix_KaaIoTData_sensor,
+        dso:SSM_SNN_prefix_KaaIoTData_name,
+        dso:SSM_SNN_prefix_KaaIoTData_sensor,
+        dso:W2V_GOIoTP_prefix_KaaIoTData_name,
+        dso:W2V_GOIoTP_prefix_KaaIoTData_sensor,
+        dso:W2V_SNN_prefix_KaaIoTData_name,
+        dso:W2V_SNN_prefix_KaaIoTData_sensor ;
+    dso:term_Used_in dso:GOIoTP,
+        dso:SNN .
+
+dso:observation a dso:Term ;
+    dso:has_Similarity dso:SSM_GOIoTP_observation_KaaIoTData_temperature,
+        dso:SSM_SNN_observation_KaaIoTData_temperature,
+        dso:SSM_WatERPOntology_observation_KaaIoTData_model,
+        dso:SSM_WatERPOntology_observation_KaaIoTData_sensor,
+        dso:SSM_WatERPOntology_observation_KaaIoTData_value,
+        dso:W2V_GOIoTP_observation_KaaIoTData_temperature,
+        dso:W2V_SNN_observation_KaaIoTData_temperature,
+        dso:W2V_WatERPOntology_observation_KaaIoTData_model,
+        dso:W2V_WatERPOntology_observation_KaaIoTData_sensor,
+        dso:W2V_WatERPOntology_observation_KaaIoTData_value ;
+    dso:term_Used_in dso:GOIoTP,
+        dso:SNN,
+        dso:WatERPOntology .
+
+dso:core a dso:Term ;
+    dso:has_Similarity dso:SSM_GOIoTP_core_KaaIoTData_description,
+        dso:SSM_GOIoTP_core_KaaIoTData_sensor,
+        dso:SSM_GOIoTP_core_KaaIoTData_temperature,
+        dso:SSM_SNN_core_KaaIoTData_description,
+        dso:SSM_SNN_core_KaaIoTData_sensor,
+        dso:SSM_SNN_core_KaaIoTData_temperature,
+        dso:W2V_GOIoTP_core_KaaIoTData_description,
+        dso:W2V_GOIoTP_core_KaaIoTData_sensor,
+        dso:W2V_GOIoTP_core_KaaIoTData_temperature,
+        dso:W2V_SNN_core_KaaIoTData_description,
+        dso:W2V_SNN_core_KaaIoTData_sensor,
+        dso:W2V_SNN_core_KaaIoTData_temperature ;
+    dso:term_Used_in dso:GOIoTP,
+        dso:SNN .
+
+dso:making a dso:Term ;
+    dso:has_Similarity dso:SSM_GOIoTP_making_KaaIoTData_description,
+        dso:SSM_GOIoTP_making_KaaIoTData_name,
+        dso:SSM_GOIoTP_making_KaaIoTData_sensor,
+        dso:SSM_SNN_making_KaaIoTData_description,
+        dso:SSM_SNN_making_KaaIoTData_name,
+        dso:SSM_SNN_making_KaaIoTData_sensor,
+        dso:W2V_GOIoTP_making_KaaIoTData_description,
+        dso:W2V_GOIoTP_making_KaaIoTData_name,
+        dso:W2V_GOIoTP_making_KaaIoTData_sensor,
+        dso:W2V_SNN_making_KaaIoTData_description,
+        dso:W2V_SNN_making_KaaIoTData_name,
+        dso:W2V_SNN_making_KaaIoTData_sensor ;
+    dso:term_Used_in dso:GOIoTP,
+        dso:SNN .
+
+dso:entity a dso:Term ;
+    dso:has_Similarity dso:SSM_GOIoTP_entity_KaaIoTData_description,
+        dso:SSM_GOIoTP_entity_KaaIoTData_sensor,
+        dso:SSM_GOIoTP_entity_KaaIoTData_temperature,
+        dso:SSM_SNN_entity_KaaIoTData_description,
+        dso:SSM_SNN_entity_KaaIoTData_sensor,
+        dso:SSM_SNN_entity_KaaIoTData_temperature,
+        dso:SSM_WatERPOntology_entity_KaaIoTData_values,
+        dso:W2V_GOIoTP_entity_KaaIoTData_description,
+        dso:W2V_GOIoTP_entity_KaaIoTData_sensor,
+        dso:W2V_GOIoTP_entity_KaaIoTData_temperature,
+        dso:W2V_SNN_entity_KaaIoTData_description,
+        dso:W2V_SNN_entity_KaaIoTData_sensor,
+        dso:W2V_SNN_entity_KaaIoTData_temperature,
+        dso:W2V_WatERPOntology_entity_KaaIoTData_values ;
+    dso:term_Used_in dso:GOIoTP,
+        dso:SNN,
+        dso:WatERPOntology .
+
+dso:comment a dso:Term ;
+    dso:has_Similarity dso:SSM_GOIoTP_comment_KaaIoTData_description,
+        dso:SSM_GOIoTP_comment_KaaIoTData_name,
+        dso:SSM_GOIoTP_comment_KaaIoTData_sensor,
+        dso:SSM_GOIoTP_comment_KaaIoTData_temperature,
+        dso:SSM_SNN_comment_KaaIoTData_description,
+        dso:SSM_SNN_comment_KaaIoTData_name,
+        dso:SSM_SNN_comment_KaaIoTData_sensor,
+        dso:SSM_SNN_comment_KaaIoTData_temperature,
+        dso:W2V_GOIoTP_comment_KaaIoTData_description,
+        dso:W2V_GOIoTP_comment_KaaIoTData_name,
+        dso:W2V_GOIoTP_comment_KaaIoTData_sensor,
+        dso:W2V_GOIoTP_comment_KaaIoTData_temperature,
+        dso:W2V_SNN_comment_KaaIoTData_description,
+        dso:W2V_SNN_comment_KaaIoTData_name,
+        dso:W2V_SNN_comment_KaaIoTData_sensor,
+        dso:W2V_SNN_comment_KaaIoTData_temperature ;
+    dso:term_Used_in dso:GOIoTP,
+        dso:SNN .
+
+dso:device a dso:Term ;
+    dso:has_Similarity dso:SSM_GOIoTP_device_KaaIoTData_description,
+        dso:SSM_GOIoTP_device_KaaIoTData_name,
+        dso:SSM_GOIoTP_device_KaaIoTData_sensor,
+        dso:SSM_GOIoTP_device_KaaIoTData_temperature,
+        dso:SSM_SNN_device_KaaIoTData_description,
+        dso:SSM_SNN_device_KaaIoTData_name,
+        dso:SSM_SNN_device_KaaIoTData_sensor,
+        dso:SSM_SNN_device_KaaIoTData_temperature,
+        dso:W2V_GOIoTP_device_KaaIoTData_description,
+        dso:W2V_GOIoTP_device_KaaIoTData_name,
+        dso:W2V_GOIoTP_device_KaaIoTData_sensor,
+        dso:W2V_GOIoTP_device_KaaIoTData_temperature,
+        dso:W2V_SNN_device_KaaIoTData_description,
+        dso:W2V_SNN_device_KaaIoTData_name,
+        dso:W2V_SNN_device_KaaIoTData_sensor,
+        dso:W2V_SNN_device_KaaIoTData_temperature ;
+    dso:term_Used_in dso:GOIoTP,
+        dso:SNN .
+
+dso:smart a dso:Term ;
+    dso:has_Similarity dso:SSM_GOIoTP_smart_KaaIoTData_description,
+        dso:SSM_GOIoTP_smart_KaaIoTData_name,
+        dso:SSM_GOIoTP_smart_KaaIoTData_sensor,
+        dso:SSM_GOIoTP_smart_KaaIoTData_temperature,
+        dso:SSM_SNN_smart_KaaIoTData_description,
+        dso:SSM_SNN_smart_KaaIoTData_name,
+        dso:SSM_SNN_smart_KaaIoTData_sensor,
+        dso:SSM_SNN_smart_KaaIoTData_temperature,
+        dso:W2V_GOIoTP_smart_KaaIoTData_description,
+        dso:W2V_GOIoTP_smart_KaaIoTData_name,
+        dso:W2V_GOIoTP_smart_KaaIoTData_sensor,
+        dso:W2V_GOIoTP_smart_KaaIoTData_temperature,
+        dso:W2V_SNN_smart_KaaIoTData_description,
+        dso:W2V_SNN_smart_KaaIoTData_name,
+        dso:W2V_SNN_smart_KaaIoTData_sensor,
+        dso:W2V_SNN_smart_KaaIoTData_temperature ;
+    dso:term_Used_in dso:GOIoTP,
+        dso:SNN .
+
+dso:example a dso:Term ;
+    dso:has_Similarity dso:SSM_GOIoTP_example_KaaIoTData_description,
+        dso:SSM_GOIoTP_example_KaaIoTData_name,
+        dso:SSM_GOIoTP_example_KaaIoTData_sensor,
+        dso:SSM_GOIoTP_example_KaaIoTData_temperature,
+        dso:SSM_SNN_example_KaaIoTData_description,
+        dso:SSM_SNN_example_KaaIoTData_name,
+        dso:SSM_SNN_example_KaaIoTData_sensor,
+        dso:SSM_SNN_example_KaaIoTData_temperature,
+        dso:SSM_WatERPOntology_example_KaaIoTData_values,
+        dso:W2V_GOIoTP_example_KaaIoTData_description,
+        dso:W2V_GOIoTP_example_KaaIoTData_name,
+        dso:W2V_GOIoTP_example_KaaIoTData_sensor,
+        dso:W2V_GOIoTP_example_KaaIoTData_temperature,
+        dso:W2V_SNN_example_KaaIoTData_description,
+        dso:W2V_SNN_example_KaaIoTData_name,
+        dso:W2V_SNN_example_KaaIoTData_sensor,
+        dso:W2V_SNN_example_KaaIoTData_temperature,
+        dso:W2V_WatERPOntology_example_KaaIoTData_values ;
+    dso:term_Used_in dso:GOIoTP,
+        dso:SNN,
+        dso:WatERPOntology .
+
+dso:value a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_amp_KaaIoTData_value,
+        dso:SSM_WatERPOntology_etc_KaaIoTData_value,
+        dso:SSM_WatERPOntology_event_KaaIoTData_value,
+        dso:SSM_WatERPOntology_feature_KaaIoTData_value,
+        dso:SSM_WatERPOntology_observation_KaaIoTData_value,
+        dso:SSM_WatERPOntology_quality_KaaIoTData_value,
+        dso:SSM_WatERPOntology_result_KaaIoTData_value,
+        dso:SSM_WatERPOntology_situation_KaaIoTData_value,
+        dso:SSM_WatERPOntology_source_KaaIoTData_value,
+        dso:SSM_WatERPOntology_system_KaaIoTData_value,
+        dso:W2V_WatERPOntology_amp_KaaIoTData_value,
+        dso:W2V_WatERPOntology_etc_KaaIoTData_value,
+        dso:W2V_WatERPOntology_event_KaaIoTData_value,
+        dso:W2V_WatERPOntology_feature_KaaIoTData_value,
+        dso:W2V_WatERPOntology_observation_KaaIoTData_value,
+        dso:W2V_WatERPOntology_quality_KaaIoTData_value,
+        dso:W2V_WatERPOntology_result_KaaIoTData_value,
+        dso:W2V_WatERPOntology_situation_KaaIoTData_value,
+        dso:W2V_WatERPOntology_source_KaaIoTData_value,
+        dso:W2V_WatERPOntology_system_KaaIoTData_value ;
+    dso:term_Used_in dso:KaaIoTData .
+
+dso:model a dso:Term ;
+    dso:has_Similarity dso:SSM_WatERPOntology_amp_KaaIoTData_model,
+        dso:SSM_WatERPOntology_dis_KaaIoTData_model,
+        dso:SSM_WatERPOntology_featureofinterest_KaaIoTData_model,
+        dso:SSM_WatERPOntology_haspart_KaaIoTData_model,
+        dso:SSM_WatERPOntology_model_KaaIoTData_model,
+        dso:SSM_WatERPOntology_model_KaaIoTData_sensor,
+        dso:SSM_WatERPOntology_observation_KaaIoTData_model,
+        dso:SSM_WatERPOntology_observationvalue_KaaIoTData_model,
+        dso:SSM_WatERPOntology_property_KaaIoTData_model,
+        dso:SSM_WatERPOntology_seealso_KaaIoTData_model,
+        dso:SSM_WatERPOntology_sensor_KaaIoTData_model,
+        dso:SSM_WatERPOntology_vim_KaaIoTData_model,
+        dso:W2V_WatERPOntology_amp_KaaIoTData_model,
+        dso:W2V_WatERPOntology_dis_KaaIoTData_model,
+        dso:W2V_WatERPOntology_featureofinterest_KaaIoTData_model,
+        dso:W2V_WatERPOntology_haspart_KaaIoTData_model,
+        dso:W2V_WatERPOntology_model_KaaIoTData_sensor,
+        dso:W2V_WatERPOntology_observation_KaaIoTData_model,
+        dso:W2V_WatERPOntology_observationvalue_KaaIoTData_model,
+        dso:W2V_WatERPOntology_property_KaaIoTData_model,
+        dso:W2V_WatERPOntology_seealso_KaaIoTData_model,
+        dso:W2V_WatERPOntology_sensor_KaaIoTData_model,
+        dso:W2V_WatERPOntology_vim_KaaIoTData_model ;
+    dso:term_Used_in dso:KaaIoTData,
+        dso:WatERPOntology .
+
+dso:name a dso:Term ;
+    dso:has_Similarity dso:SSM_GOIoTP_comment_KaaIoTData_name,
+        dso:SSM_GOIoTP_description_KaaIoTData_name,
+        dso:SSM_GOIoTP_device_KaaIoTData_name,
+        dso:SSM_GOIoTP_example_KaaIoTData_name,
+        dso:SSM_GOIoTP_making_KaaIoTData_name,
+        dso:SSM_GOIoTP_prefix_KaaIoTData_name,
+        dso:SSM_GOIoTP_project_KaaIoTData_name,
+        dso:SSM_GOIoTP_sensor_KaaIoTData_name,
+        dso:SSM_GOIoTP_smart_KaaIoTData_name,
+        dso:SSM_GOIoTP_truck_KaaIoTData_name,
+        dso:SSM_SNN_comment_KaaIoTData_name,
+        dso:SSM_SNN_description_KaaIoTData_name,
+        dso:SSM_SNN_device_KaaIoTData_name,
+        dso:SSM_SNN_example_KaaIoTData_name,
+        dso:SSM_SNN_making_KaaIoTData_name,
+        dso:SSM_SNN_prefix_KaaIoTData_name,
+        dso:SSM_SNN_project_KaaIoTData_name,
+        dso:SSM_SNN_sensor_KaaIoTData_name,
+        dso:SSM_SNN_smart_KaaIoTData_name,
+        dso:SSM_SNN_truck_KaaIoTData_name,
+        dso:W2V_GOIoTP_comment_KaaIoTData_name,
+        dso:W2V_GOIoTP_description_KaaIoTData_name,
+        dso:W2V_GOIoTP_device_KaaIoTData_name,
+        dso:W2V_GOIoTP_example_KaaIoTData_name,
+        dso:W2V_GOIoTP_making_KaaIoTData_name,
+        dso:W2V_GOIoTP_prefix_KaaIoTData_name,
+        dso:W2V_GOIoTP_project_KaaIoTData_name,
+        dso:W2V_GOIoTP_sensor_KaaIoTData_name,
+        dso:W2V_GOIoTP_smart_KaaIoTData_name,
+        dso:W2V_GOIoTP_truck_KaaIoTData_name,
+        dso:W2V_SNN_comment_KaaIoTData_name,
+        dso:W2V_SNN_description_KaaIoTData_name,
+        dso:W2V_SNN_device_KaaIoTData_name,
+        dso:W2V_SNN_example_KaaIoTData_name,
+        dso:W2V_SNN_making_KaaIoTData_name,
+        dso:W2V_SNN_prefix_KaaIoTData_name,
+        dso:W2V_SNN_project_KaaIoTData_name,
+        dso:W2V_SNN_sensor_KaaIoTData_name,
+        dso:W2V_SNN_smart_KaaIoTData_name,
+        dso:W2V_SNN_truck_KaaIoTData_name ;
+    dso:term_Used_in dso:KaaIoTData .
+
+dso:temperature a dso:Term ;
+    dso:has_Similarity dso:SSM_GOIoTP_activity_KaaIoTData_temperature,
+        dso:SSM_GOIoTP_actuation_KaaIoTData_temperature,
+        dso:SSM_GOIoTP_comment_KaaIoTData_temperature,
+        dso:SSM_GOIoTP_core_KaaIoTData_temperature,
+        dso:SSM_GOIoTP_device_KaaIoTData_temperature,
+        dso:SSM_GOIoTP_entity_KaaIoTData_temperature,
+        dso:SSM_GOIoTP_example_KaaIoTData_temperature,
+        dso:SSM_GOIoTP_http_KaaIoTData_temperature,
+        dso:SSM_GOIoTP_observation_KaaIoTData_temperature,
+        dso:SSM_GOIoTP_smart_KaaIoTData_temperature,
+        dso:SSM_SNN_activity_KaaIoTData_temperature,
+        dso:SSM_SNN_actuation_KaaIoTData_temperature,
+        dso:SSM_SNN_comment_KaaIoTData_temperature,
+        dso:SSM_SNN_core_KaaIoTData_temperature,
+        dso:SSM_SNN_device_KaaIoTData_temperature,
+        dso:SSM_SNN_entity_KaaIoTData_temperature,
+        dso:SSM_SNN_example_KaaIoTData_temperature,
+        dso:SSM_SNN_http_KaaIoTData_temperature,
+        dso:SSM_SNN_observation_KaaIoTData_temperature,
+        dso:SSM_SNN_smart_KaaIoTData_temperature,
+        dso:SSM_WatERPOntology_capability_KaaIoTData_temperature,
+        dso:SSM_WatERPOntology_deployed_KaaIoTData_temperature,
+        dso:SSM_WatERPOntology_exactmatch_KaaIoTData_temperature,
+        dso:SSM_WatERPOntology_made_KaaIoTData_temperature,
+        dso:SSM_WatERPOntology_measurement_KaaIoTData_temperature,
+        dso:SSM_WatERPOntology_operating_KaaIoTData_temperature,
+        dso:SSM_WatERPOntology_platform_KaaIoTData_temperature,
+        dso:SSM_WatERPOntology_range_KaaIoTData_temperature,
+        dso:SSM_WatERPOntology_time_KaaIoTData_temperature,
+        dso:SSM_WatERPOntology_used_KaaIoTData_temperature,
+        dso:W2V_GOIoTP_activity_KaaIoTData_temperature,
+        dso:W2V_GOIoTP_actuation_KaaIoTData_temperature,
+        dso:W2V_GOIoTP_comment_KaaIoTData_temperature,
+        dso:W2V_GOIoTP_core_KaaIoTData_temperature,
+        dso:W2V_GOIoTP_device_KaaIoTData_temperature,
+        dso:W2V_GOIoTP_entity_KaaIoTData_temperature,
+        dso:W2V_GOIoTP_example_KaaIoTData_temperature,
+        dso:W2V_GOIoTP_http_KaaIoTData_temperature,
+        dso:W2V_GOIoTP_observation_KaaIoTData_temperature,
+        dso:W2V_GOIoTP_smart_KaaIoTData_temperature,
+        dso:W2V_SNN_activity_KaaIoTData_temperature,
+        dso:W2V_SNN_actuation_KaaIoTData_temperature,
+        dso:W2V_SNN_comment_KaaIoTData_temperature,
+        dso:W2V_SNN_core_KaaIoTData_temperature,
+        dso:W2V_SNN_device_KaaIoTData_temperature,
+        dso:W2V_SNN_entity_KaaIoTData_temperature,
+        dso:W2V_SNN_example_KaaIoTData_temperature,
+        dso:W2V_SNN_http_KaaIoTData_temperature,
+        dso:W2V_SNN_observation_KaaIoTData_temperature,
+        dso:W2V_SNN_smart_KaaIoTData_temperature,
+        dso:W2V_WatERPOntology_capability_KaaIoTData_temperature,
+        dso:W2V_WatERPOntology_deployed_KaaIoTData_temperature,
+        dso:W2V_WatERPOntology_exactmatch_KaaIoTData_temperature,
+        dso:W2V_WatERPOntology_made_KaaIoTData_temperature,
+        dso:W2V_WatERPOntology_measurement_KaaIoTData_temperature,
+        dso:W2V_WatERPOntology_operating_KaaIoTData_temperature,
+        dso:W2V_WatERPOntology_platform_KaaIoTData_temperature,
+        dso:W2V_WatERPOntology_range_KaaIoTData_temperature,
+        dso:W2V_WatERPOntology_time_KaaIoTData_temperature,
+        dso:W2V_WatERPOntology_used_KaaIoTData_temperature ;
+    dso:term_Used_in dso:KaaIoTData .
+
+dso:values a dso:Term ;
+    dso:has_Similarity dso:SSM_GOIoTP_classes_KaaIoTData_values,
+        dso:SSM_GOIoTP_contact_KaaIoTData_values,
+        dso:SSM_GOIoTP_hasdescription_KaaIoTData_values,
+        dso:SSM_GOIoTP_hassemantics_KaaIoTData_values,
+        dso:SSM_GOIoTP_hasserviceinterface_KaaIoTData_values,
+        dso:SSM_GOIoTP_implements_KaaIoTData_values,
+        dso:SSM_GOIoTP_modified_KaaIoTData_values,
+        dso:SSM_GOIoTP_platformcomponent_KaaIoTData_values,
+        dso:SSM_GOIoTP_versioninfo_KaaIoTData_values,
+        dso:SSM_GOIoTP_vocabulary_KaaIoTData_values,
+        dso:SSM_SNN_classes_KaaIoTData_values,
+        dso:SSM_SNN_contact_KaaIoTData_values,
+        dso:SSM_SNN_hasdescription_KaaIoTData_values,
+        dso:SSM_SNN_hassemantics_KaaIoTData_values,
+        dso:SSM_SNN_hasserviceinterface_KaaIoTData_values,
+        dso:SSM_SNN_implements_KaaIoTData_values,
+        dso:SSM_SNN_modified_KaaIoTData_values,
+        dso:SSM_SNN_platformcomponent_KaaIoTData_values,
+        dso:SSM_SNN_versioninfo_KaaIoTData_values,
+        dso:SSM_SNN_vocabulary_KaaIoTData_values,
+        dso:SSM_WatERPOntology_act_KaaIoTData_values,
+        dso:SSM_WatERPOntology_associated_KaaIoTData_values,
+        dso:SSM_WatERPOntology_described_KaaIoTData_values,
+        dso:SSM_WatERPOntology_entity_KaaIoTData_values,
+        dso:SSM_WatERPOntology_example_KaaIoTData_values,
+        dso:SSM_WatERPOntology_observed_KaaIoTData_values,
+        dso:SSM_WatERPOntology_particular_KaaIoTData_values,
+        dso:SSM_WatERPOntology_procedure_KaaIoTData_values,
+        dso:SSM_WatERPOntology_range_KaaIoTData_values,
+        dso:SSM_WatERPOntology_skos_KaaIoTData_values,
+        dso:W2V_GOIoTP_classes_KaaIoTData_values,
+        dso:W2V_GOIoTP_contact_KaaIoTData_values,
+        dso:W2V_GOIoTP_hasdescription_KaaIoTData_values,
+        dso:W2V_GOIoTP_hassemantics_KaaIoTData_values,
+        dso:W2V_GOIoTP_hasserviceinterface_KaaIoTData_values,
+        dso:W2V_GOIoTP_implements_KaaIoTData_values,
+        dso:W2V_GOIoTP_modified_KaaIoTData_values,
+        dso:W2V_GOIoTP_platformcomponent_KaaIoTData_values,
+        dso:W2V_GOIoTP_versioninfo_KaaIoTData_values,
+        dso:W2V_GOIoTP_vocabulary_KaaIoTData_values,
+        dso:W2V_SNN_classes_KaaIoTData_values,
+        dso:W2V_SNN_contact_KaaIoTData_values,
+        dso:W2V_SNN_hasdescription_KaaIoTData_values,
+        dso:W2V_SNN_hassemantics_KaaIoTData_values,
+        dso:W2V_SNN_hasserviceinterface_KaaIoTData_values,
+        dso:W2V_SNN_implements_KaaIoTData_values,
+        dso:W2V_SNN_modified_KaaIoTData_values,
+        dso:W2V_SNN_platformcomponent_KaaIoTData_values,
+        dso:W2V_SNN_versioninfo_KaaIoTData_values,
+        dso:W2V_SNN_vocabulary_KaaIoTData_values,
+        dso:W2V_WatERPOntology_act_KaaIoTData_values,
+        dso:W2V_WatERPOntology_associated_KaaIoTData_values,
+        dso:W2V_WatERPOntology_described_KaaIoTData_values,
+        dso:W2V_WatERPOntology_entity_KaaIoTData_values,
+        dso:W2V_WatERPOntology_example_KaaIoTData_values,
+        dso:W2V_WatERPOntology_observed_KaaIoTData_values,
+        dso:W2V_WatERPOntology_particular_KaaIoTData_values,
+        dso:W2V_WatERPOntology_procedure_KaaIoTData_values,
+        dso:W2V_WatERPOntology_range_KaaIoTData_values,
+        dso:W2V_WatERPOntology_skos_KaaIoTData_values ;
+    dso:term_Used_in dso:KaaIoTData .
+
+dso:description a dso:Term ;
+    dso:has_Similarity dso:SSM_GOIoTP_actuation_KaaIoTData_description,
+        dso:SSM_GOIoTP_comment_KaaIoTData_description,
+        dso:SSM_GOIoTP_core_KaaIoTData_description,
+        dso:SSM_GOIoTP_description_KaaIoTData_name,
+        dso:SSM_GOIoTP_description_KaaIoTData_sensor,
+        dso:SSM_GOIoTP_device_KaaIoTData_description,
+        dso:SSM_GOIoTP_entities_KaaIoTData_description,
+        dso:SSM_GOIoTP_entity_KaaIoTData_description,
+        dso:SSM_GOIoTP_example_KaaIoTData_description,
+        dso:SSM_GOIoTP_making_KaaIoTData_description,
+        dso:SSM_GOIoTP_skos_KaaIoTData_description,
+        dso:SSM_GOIoTP_smart_KaaIoTData_description,
+        dso:SSM_SNN_actuation_KaaIoTData_description,
+        dso:SSM_SNN_comment_KaaIoTData_description,
+        dso:SSM_SNN_core_KaaIoTData_description,
+        dso:SSM_SNN_description_KaaIoTData_name,
+        dso:SSM_SNN_description_KaaIoTData_sensor,
+        dso:SSM_SNN_device_KaaIoTData_description,
+        dso:SSM_SNN_entities_KaaIoTData_description,
+        dso:SSM_SNN_entity_KaaIoTData_description,
+        dso:SSM_SNN_example_KaaIoTData_description,
+        dso:SSM_SNN_making_KaaIoTData_description,
+        dso:SSM_SNN_skos_KaaIoTData_description,
+        dso:SSM_SNN_smart_KaaIoTData_description,
+        dso:SSM_WatERPOntology_defined_KaaIoTData_description,
+        dso:SSM_WatERPOntology_life_KaaIoTData_description,
+        dso:SSM_WatERPOntology_maintenance_KaaIoTData_description,
+        dso:SSM_WatERPOntology_methods_KaaIoTData_description,
+        dso:SSM_WatERPOntology_might_KaaIoTData_description,
+        dso:SSM_WatERPOntology_number_KaaIoTData_description,
+        dso:SSM_WatERPOntology_observations_KaaIoTData_description,
+        dso:SSM_WatERPOntology_power_KaaIoTData_description,
+        dso:SSM_WatERPOntology_similar_KaaIoTData_description,
+        dso:SSM_WatERPOntology_systems_KaaIoTData_description,
+        dso:W2V_GOIoTP_actuation_KaaIoTData_description,
+        dso:W2V_GOIoTP_comment_KaaIoTData_description,
+        dso:W2V_GOIoTP_core_KaaIoTData_description,
+        dso:W2V_GOIoTP_description_KaaIoTData_name,
+        dso:W2V_GOIoTP_description_KaaIoTData_sensor,
+        dso:W2V_GOIoTP_device_KaaIoTData_description,
+        dso:W2V_GOIoTP_entities_KaaIoTData_description,
+        dso:W2V_GOIoTP_entity_KaaIoTData_description,
+        dso:W2V_GOIoTP_example_KaaIoTData_description,
+        dso:W2V_GOIoTP_making_KaaIoTData_description,
+        dso:W2V_GOIoTP_skos_KaaIoTData_description,
+        dso:W2V_GOIoTP_smart_KaaIoTData_description,
+        dso:W2V_SNN_actuation_KaaIoTData_description,
+        dso:W2V_SNN_comment_KaaIoTData_description,
+        dso:W2V_SNN_core_KaaIoTData_description,
+        dso:W2V_SNN_description_KaaIoTData_name,
+        dso:W2V_SNN_description_KaaIoTData_sensor,
+        dso:W2V_SNN_device_KaaIoTData_description,
+        dso:W2V_SNN_entities_KaaIoTData_description,
+        dso:W2V_SNN_entity_KaaIoTData_description,
+        dso:W2V_SNN_example_KaaIoTData_description,
+        dso:W2V_SNN_making_KaaIoTData_description,
+        dso:W2V_SNN_skos_KaaIoTData_description,
+        dso:W2V_SNN_smart_KaaIoTData_description,
+        dso:W2V_WatERPOntology_defined_KaaIoTData_description,
+        dso:W2V_WatERPOntology_life_KaaIoTData_description,
+        dso:W2V_WatERPOntology_maintenance_KaaIoTData_description,
+        dso:W2V_WatERPOntology_methods_KaaIoTData_description,
+        dso:W2V_WatERPOntology_might_KaaIoTData_description,
+        dso:W2V_WatERPOntology_number_KaaIoTData_description,
+        dso:W2V_WatERPOntology_observations_KaaIoTData_description,
+        dso:W2V_WatERPOntology_power_KaaIoTData_description,
+        dso:W2V_WatERPOntology_similar_KaaIoTData_description,
+        dso:W2V_WatERPOntology_systems_KaaIoTData_description ;
+    dso:term_Used_in dso:GOIoTP,
+        dso:KaaIoTData,
+        dso:SNN .
+
+dso:sensor a dso:Term ;
+    dso:has_Similarity dso:SSM_GOIoTP_comment_KaaIoTData_sensor,
+        dso:SSM_GOIoTP_core_KaaIoTData_sensor,
+        dso:SSM_GOIoTP_description_KaaIoTData_sensor,
+        dso:SSM_GOIoTP_device_KaaIoTData_sensor,
+        dso:SSM_GOIoTP_entities_KaaIoTData_sensor,
+        dso:SSM_GOIoTP_entity_KaaIoTData_sensor,
+        dso:SSM_GOIoTP_example_KaaIoTData_sensor,
+        dso:SSM_GOIoTP_making_KaaIoTData_sensor,
+        dso:SSM_GOIoTP_prefix_KaaIoTData_sensor,
+        dso:SSM_GOIoTP_sensor_KaaIoTData_name,
+        dso:SSM_GOIoTP_sensor_KaaIoTData_sensor,
+        dso:SSM_GOIoTP_smart_KaaIoTData_sensor,
+        dso:SSM_SNN_comment_KaaIoTData_sensor,
+        dso:SSM_SNN_core_KaaIoTData_sensor,
+        dso:SSM_SNN_description_KaaIoTData_sensor,
+        dso:SSM_SNN_device_KaaIoTData_sensor,
+        dso:SSM_SNN_entities_KaaIoTData_sensor,
+        dso:SSM_SNN_entity_KaaIoTData_sensor,
+        dso:SSM_SNN_example_KaaIoTData_sensor,
+        dso:SSM_SNN_making_KaaIoTData_sensor,
+        dso:SSM_SNN_prefix_KaaIoTData_sensor,
+        dso:SSM_SNN_sensor_KaaIoTData_name,
+        dso:SSM_SNN_sensor_KaaIoTData_sensor,
+        dso:SSM_SNN_smart_KaaIoTData_sensor,
+        dso:SSM_WatERPOntology_amp_KaaIoTData_sensor,
+        dso:SSM_WatERPOntology_dis_KaaIoTData_sensor,
+        dso:SSM_WatERPOntology_etc_KaaIoTData_sensor,
+        dso:SSM_WatERPOntology_featureofinterest_KaaIoTData_sensor,
+        dso:SSM_WatERPOntology_model_KaaIoTData_sensor,
+        dso:SSM_WatERPOntology_observation_KaaIoTData_sensor,
+        dso:SSM_WatERPOntology_observationvalue_KaaIoTData_sensor,
+        dso:SSM_WatERPOntology_property_KaaIoTData_sensor,
+        dso:SSM_WatERPOntology_seealso_KaaIoTData_sensor,
+        dso:SSM_WatERPOntology_sensor_KaaIoTData_model,
+        dso:SSM_WatERPOntology_vim_KaaIoTData_sensor,
+        dso:W2V_GOIoTP_comment_KaaIoTData_sensor,
+        dso:W2V_GOIoTP_core_KaaIoTData_sensor,
+        dso:W2V_GOIoTP_description_KaaIoTData_sensor,
+        dso:W2V_GOIoTP_device_KaaIoTData_sensor,
+        dso:W2V_GOIoTP_entities_KaaIoTData_sensor,
+        dso:W2V_GOIoTP_entity_KaaIoTData_sensor,
+        dso:W2V_GOIoTP_example_KaaIoTData_sensor,
+        dso:W2V_GOIoTP_making_KaaIoTData_sensor,
+        dso:W2V_GOIoTP_prefix_KaaIoTData_sensor,
+        dso:W2V_GOIoTP_sensor_KaaIoTData_name,
+        dso:W2V_GOIoTP_smart_KaaIoTData_sensor,
+        dso:W2V_SNN_comment_KaaIoTData_sensor,
+        dso:W2V_SNN_core_KaaIoTData_sensor,
+        dso:W2V_SNN_description_KaaIoTData_sensor,
+        dso:W2V_SNN_device_KaaIoTData_sensor,
+        dso:W2V_SNN_entities_KaaIoTData_sensor,
+        dso:W2V_SNN_entity_KaaIoTData_sensor,
+        dso:W2V_SNN_example_KaaIoTData_sensor,
+        dso:W2V_SNN_making_KaaIoTData_sensor,
+        dso:W2V_SNN_prefix_KaaIoTData_sensor,
+        dso:W2V_SNN_sensor_KaaIoTData_name,
+        dso:W2V_SNN_smart_KaaIoTData_sensor,
+        dso:W2V_WatERPOntology_amp_KaaIoTData_sensor,
+        dso:W2V_WatERPOntology_dis_KaaIoTData_sensor,
+        dso:W2V_WatERPOntology_etc_KaaIoTData_sensor,
+        dso:W2V_WatERPOntology_featureofinterest_KaaIoTData_sensor,
+        dso:W2V_WatERPOntology_model_KaaIoTData_sensor,
+        dso:W2V_WatERPOntology_observation_KaaIoTData_sensor,
+        dso:W2V_WatERPOntology_observationvalue_KaaIoTData_sensor,
+        dso:W2V_WatERPOntology_property_KaaIoTData_sensor,
+        dso:W2V_WatERPOntology_seealso_KaaIoTData_sensor,
+        dso:W2V_WatERPOntology_sensor_KaaIoTData_model,
+        dso:W2V_WatERPOntology_vim_KaaIoTData_sensor ;
+    dso:term_Used_in dso:GOIoTP,
+        dso:KaaIoTData,
+        dso:SNN,
+        dso:WatERPOntology .
+
+dso:GOIoTP a dso:Ontology ;
+    dso:uses_Term dso:activity,
+        dso:actuation,
+        dso:classes,
+        dso:comment,
+        dso:contact,
+        dso:core,
+        dso:description,
+        dso:device,
+        dso:entities,
+        dso:entity,
+        dso:example,
+        dso:hasdescription,
+        dso:hassemantics,
+        dso:hasserviceinterface,
+        dso:http,
+        dso:implements,
+        dso:making,
+        dso:modified,
+        dso:observation,
+        dso:platformcomponent,
+        dso:prefix,
+        dso:project,
+        dso:sensor,
+        dso:skos,
+        dso:smart,
+        dso:truck,
+        dso:versioninfo,
+        dso:vocabulary .
+
+dso:SNN a dso:Ontology ;
+    dso:uses_Term dso:activity,
+        dso:actuation,
+        dso:classes,
+        dso:comment,
+        dso:contact,
+        dso:core,
+        dso:description,
+        dso:device,
+        dso:entities,
+        dso:entity,
+        dso:example,
+        dso:hasdescription,
+        dso:hassemantics,
+        dso:hasserviceinterface,
+        dso:http,
+        dso:implements,
+        dso:making,
+        dso:modified,
+        dso:observation,
+        dso:platformcomponent,
+        dso:prefix,
+        dso:project,
+        dso:sensor,
+        dso:skos,
+        dso:smart,
+        dso:truck,
+        dso:versioninfo,
+        dso:vocabulary .
+
+dso:WatERPOntology a dso:Ontology ;
+    dso:uses_Term dso:act,
+        dso:amp,
+        dso:associated,
+        dso:capability,
+        dso:defined,
+        dso:deployed,
+        dso:described,
+        dso:dis,
+        dso:entity,
+        dso:etc,
+        dso:event,
+        dso:exactmatch,
+        dso:example,
+        dso:feature,
+        dso:featureofinterest,
+        dso:haspart,
+        dso:life,
+        dso:made,
+        dso:maintenance,
+        dso:measurement,
+        dso:methods,
+        dso:might,
+        dso:model,
+        dso:number,
+        dso:observation,
+        dso:observations,
+        dso:observationvalue,
+        dso:observed,
+        dso:operating,
+        dso:particular,
+        dso:platform,
+        dso:power,
+        dso:procedure,
+        dso:property,
+        dso:quality,
+        dso:range,
+        dso:result,
+        dso:seealso,
+        dso:sensor,
+        dso:similar,
+        dso:situation,
+        dso:skos,
+        dso:source,
+        dso:system,
+        dso:systems,
+        dso:time,
+        dso:used,
+        dso:vim .
+
+dso:KaaIoTData a dso:IoT_Data ;
+    dso:uses_Term dso:description,
+        dso:model,
+        dso:name,
+        dso:sensor,
+        dso:temperature,
+        dso:value,
+        dso:values .
+
